@@ -64,9 +64,9 @@
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="assets/public/img/P1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Projet WEBAGENCY</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -75,9 +75,9 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="assets/public/img/P2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Projet SITE D'IREKI</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -86,7 +86,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="assets/public/img/P3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -97,7 +97,7 @@
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="assets/public/img/P4.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -107,7 +107,6 @@
     </div>
   </div>
 </div>
-
 
 <?php $content = ob_get_clean(); ?>
 <?php require('template.php'); ?>

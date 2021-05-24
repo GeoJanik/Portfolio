@@ -1,4 +1,6 @@
-  
+  body{
+    background-color: black !important;
+  }
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
@@ -82,3 +84,4 @@
     }
   }
   
+
