@@ -69,7 +69,7 @@
         <h5 class="card-title">Projet WEBAGENCY</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="index.php?action=projectP1" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -80,7 +80,7 @@
         <h5 class="card-title">Projet SITE D'IREKI</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="index.php?action=projectP2" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="index.php?action=projectP3" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="index.php?action=projectP4" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
