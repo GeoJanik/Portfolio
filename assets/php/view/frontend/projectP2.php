@@ -1,4 +1,4 @@
-<?php $title = 'P1'; ?>
+<?php $title = 'Projet 2'; ?>
 <?php ob_start(); ?>
 
 <H1>PROJET IREKI</H1>
@@ -8,58 +8,92 @@
 </div>
 
 <h2>Missions ! ireki</h2>
-<p>Pour débuter chez nous, je souhaite que tu t’occupes de la refonte de notre site, qui n’a pas été mis à jour depuis plusieurs mois. <br>
-<br>
-Voici quelques informations dont tu auras besoin pour te lancer : <br>
-<br>
-le site doit tenir sur une page avec un menu qui reste visible, en haut de la page, même lorsque l'on se déplace dans la page ;
-les différentes sections attendues sont :
-un premier écran d'accueil de bienvenue, très visuel :
-la liste des services offerts par l'agence ;
-des exemples de projets déjà réalisés :
-une carte avec un formulaire de contact (on ne vous demande pas de faire marcher le formulaire, juste de l'afficher).
-Le site devra être réalisé en HTML et CSS (sans framework tel que Bootstrap). <br>
-<br>
-Par ailleurs, j’aimerais également que tu rédiges le texte de présentation de WebAgency. <br>
-<br>
+<p>Voici les fonctionnalités attendues de la toute première version du site :</p>
 
+<ul>
+    <li>Le site possèdera une page d’accueil, essentiellement graphique, avec un peu de texte, qui souhaite la bienvenue
+        au visiteur et lui indique ce que l’on peut trouver sur le site. Des liens
+        sont prévus pour accéder aux autres pages dans le corps de l’accueil.
+        Un encart affichera un aperçu de la dernière actualité postée par la ville.
+    </li>
+    <li>
+        Un menu de navigation en haut de la page doit suivre le visiteur lorsqu’on va plus bas dans la page. Ce menu
+        doit contenir les éléments
+        suivants dans l’ordre : Accueil (avec une icône de maison à gauche du texte), Actualités, Plus d’infos,
+        Activités du mois, Contact
+    </li>
+    <li>
+    Un Champ de recherche doit aussi être présent pour faciliter l’accès au contenu.
+     Il n'est pas nécessaire que celui-ci fonctionne pour cet exercice.
+    </li>
+    <li>
+    Les pages doivent être conçues en responsive, de telle sorte à ce que le site s’affiche correctement sur toutes
+     les résolutions. La navigation sur mobile et tablettes doit être naturelle et ne doit pas nécessiter de zoomer.
+    </li>
+    <li>
+    Le client veut valider l'intérêt des animations en pur CSS 3, vous devez donc en proposer une sur l'une des pages.
+    </li>
+</ul>
 
-<h2>COMPTE RENDU DU JURY</h2>
+<p>Voici les différentes pages que doit proposer le site:</p>
 
-Projet validé <br>
-<br>
-1. Évaluation globale du travail réalisé par l’étudiant  :
-<br>
-Le site de l’étudiant a été retravaillé pour correspondre au design de la maquette
-La présentation orale a, elle aussi, été de nouveau préparée. Le projet respecte le cahier des charges, il est donc validé<div class="br"></div>
-<br>
-2. Évaluation des livrables selon les critères du projet :
-<br>
-Présents et conformes <br>
-<br>
-3. Évaluation de la présentation orale et sa conformité aux attentes : 
-<br>
-La présentation orale est dynamique et agréable à suivre. L’étudiant utilise son support de présentation pour montrer le code source du site, et il développe et justifie à l’oral ses choix. Le rôle d’un intégrateur est compris, et les difficultés rencontrées bien identifiées. <br> 
-<br>
-4. Évaluation des nouvelles compétences acquises par l'étudiant : 
-<br>
-Coder la présentation d'une page web en CSS : acquise
-Définir le contenu d'une page web à partir d'une maquette : acquise
-Présenter une réalisation de manière professionnelle : acquise
-Gérer la responsivité avec les Media Queries :  acquise
-Coder la structure d'une page web en HTML :  acquise
-5. Points positifs :
-<br>
-Utilisation d'un support de présentation <br>
-<br>
-6. Axes d'amélioration :
-<br>
-Respecter plus précisément la maquette
+<ul>
+    <li>
+    La page « Actualités » affiche la liste des billets d’actualité.
+     Les billets ne seront pas signés par un auteur : ils seront tous postés au nom de la ville.
+    </li>
+    <li>
+    La page « Plus d’infos »  présente différents types d’activités sportives et culturelles organisées 
+    (musée de la ville, marathon… affichez-en au départ au moins 6 différentes). L'administrateur du site
+     doit pouvoir indiquer le nom de l’activité, une description et une image.
+    </li>
+    <li>
+    La page « Activités du mois » liste au moins 10 activités à venir dans le mois sous forme de tableau
+     (avec date, titre et court descriptif). Les lignes doivent se colorer au survol de la souris pour qu’on 
+     puisse se repérer. Un bouton « Inscription » à droite de chaque ligne du tableau ouvre un formulaire permettant
+      de saisir son nom.  L'envoi du formulaire n'a pas d'effet pour cet exercice.
+    </li>
+    <li>
+    La page « Contact » affiche un formulaire de contact structuré avec les champs « Titre du message »,
+     « Votre nom », « Votre date de naissance », « Votre e-mail », une case à cocher « Résident de la ville », 
+     un menu déroulant « Nationalité « et un champ « Message » où on peut rédiger son message. Un petit texte 
+     d’aide s’affiche sous le champ date de naissance pour dire que le format JJ/MM/AAAA est attendu.
+    </li>
+</ul>
 
+<p>Le site doit avoir été optimisé pour le référencement naturel et doit suivre les bonnes pratiques d'accessibilité (WCAG 2.0 niveau A).</p>
+
+<h2>COMPTE RENDU DU JURY</h2> 
+<p>Projet validé</p> 
+<p>Évaluation des livrables selon les critères du projet</p>
+<ul>
+    <li>Le cahier des charges est globalement respecté.</li>
+    <li>Le site est parfaitement responsive</li>
+    <li>Le visuel est cohérent et homogène.</li>
+    <li>L’ajout de contenu pour le client est facile.</li>
+    <li>Au niveau SEO l’analyse de la lisibilité sur les articles a été travaillée.
+        Autrement il n’y a pas d’optimisation structurelle sur le site ou les pages principales.</li>
+</ul>
+
+<p>Évaluation de la présentation orale et sa conformité aux attentes</p> 
+<ul>
+    <li>La présentation est complète.</li>
+    <li>Elle est agréable et adaptée à un client.</li>
+    <li>Le vocabulaire est précis et l’attitude est professionnelle.</li>
+</ul>
+
+<p>Points positifs notables 👍</p>
+
+<ul>
+    <li>Une charte graphique cohérente est définie et respecte le thème du site.</li>
+    <li>Les liens vers les autres pages sont visuels et rendent la navigation agréable.</li>
+    <li>L’animation est bien choisie et ne gêne pas la navigation.</li>
+    <li>Le support de présentation est très bien réalisé et convaincant</li>
+</ul>
+<br>
 <h3>UN COMMENTAIRE ? UN AVIS ? RIEN A DIRE ? FAIT LE SAVOIR JUSTE EN DESSOUS</h3>
 
 <div class="formComment">
-    <h2>Commentaires</h2>
     <form action="" method="post">
         <div>
             <label for="author">Auteur</label><br />
@@ -74,5 +108,5 @@ Respecter plus précisément la maquette
         </div>
     </form>
 
-<?php $content = ob_get_clean(); ?>
-<?php require('template.php'); ?>
+    <?php $content = ob_get_clean(); ?>
+    <?php require('template.php'); ?>

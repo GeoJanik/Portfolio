@@ -15,3 +15,12 @@ function showProjectP3(){
 function showProjectP4(){
     require('./assets/php/view/frontend/projectP4.php');
 }
+function showSkill(){
+    require('./assets/php/view/frontend/skill.php');
+}
+function showFormation() {
+    require('./assets/php/view/frontend/formation.php');
+}
+function showContact(){
+    require('./assets/php/view/frontend/contact.php');
+}

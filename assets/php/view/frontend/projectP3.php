@@ -59,7 +59,6 @@ Respecter plus précisément la maquette
 <h3>UN COMMENTAIRE ? UN AVIS ? RIEN A DIRE ? FAIT LE SAVOIR JUSTE EN DESSOUS</h3>
 
 <div class="formComment">
-    <h2>Commentaires</h2>
     <form action="" method="post">
         <div>
             <label for="author">Auteur</label><br />

@@ -14,8 +14,13 @@ try {
             showProjectP3();
         } else if ($_GET['action'] == 'projectP4') {
             showProjectP4();
+        } else if ($_GET['action'] == 'skill') {
+            showSkill();
+        } else if ($_GET['action'] == 'formation') {
+            showFormation();
+        } else if ($_GET['action'] == 'contact') {
+            showContact();
         }
-
     } else {
         projectList();
     }

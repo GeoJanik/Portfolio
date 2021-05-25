@@ -66,7 +66,7 @@
     <div class="card">
       <img src="assets/public/img/P1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Projet WEBAGENCY</h5>
+        <h5 class="card-title">Intégrez une maquette</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
           <a href="index.php?action=projectP1" class="btn btn-primary">Go somewhere</a>
@@ -77,7 +77,7 @@
     <div class="card">
       <img src="assets/public/img/P2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Projet SITE D'IREKI</h5>
+        <h5 class="card-title">Créez un site WordPress</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
           <a href="index.php?action=projectP2" class="btn btn-primary">Go somewhere</a>
@@ -88,7 +88,7 @@
     <div class="card">
       <img src="assets/public/img/P3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Carte intéractive de vélos</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content.</p>
           <a href="index.php?action=projectP3" class="btn btn-primary">Go somewhere</a>
@@ -99,7 +99,7 @@
     <div class="card">
       <img src="assets/public/img/P4.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Créez un blog</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
           <a href="index.php?action=projectP4" class="btn btn-primary">Go somewhere</a>
@@ -107,6 +107,8 @@
     </div>
   </div>
 </div>
+
+
 
 <?php $content = ob_get_clean(); ?>
 <?php require('template.php'); ?>
