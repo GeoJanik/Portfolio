@@ -1,6 +1,7 @@
 <?php
 
 require('./assets/php/controller/frontend.php');
+require('./assets/php/controller/backend.php');
 
 try {
     if (isset($_GET['action'])) {
@@ -20,6 +21,20 @@ try {
             showFormation();
         } else if ($_GET['action'] == 'contact') {
             showContact();
+        } else if ($_GET['action'] == 'login') {
+            showLogin();
+        } else if ($_GET['action'] == 'admin') {
+            showAdmin();
+        } else if ($_GET['action'] == 'adminComment') {
+            showAdminComment();
+        } else if ($_GET['action']== 'adminContact') {
+            showAdminContact();
+        } else if ($_GET['action'] == 'addComment'){
+            if (!empty($_POST['author']) && !empty($_POST['comment'])) {
+                addComment();
+            } else {
+                echo 'Erreur';
+            }
         }
     } else {
         projectList();

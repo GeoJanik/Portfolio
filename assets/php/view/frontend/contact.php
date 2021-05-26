@@ -2,6 +2,7 @@
 <?php ob_start(); ?>
 
 <h1>FORMULAIRE DE CONTACT</h1>
+<p>VOIR ICONE AVEC MARINE ICI</p>
 
 
 <form id="contact-form" method="post" action="" role="form">

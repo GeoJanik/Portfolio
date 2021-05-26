@@ -59,7 +59,7 @@ Respecter plus précisément la maquette
 <h3>UN COMMENTAIRE ? UN AVIS ? RIEN A DIRE ? FAIT LE SAVOIR JUSTE EN DESSOUS</h3>
 
 <div class="formComment">
-    <form action="" method="post">
+    <form action="index.php?action=addComment" method="post">
         <div>
             <label for="author">Auteur</label><br />
             <input type="text" id="author" name="author" />
@@ -72,6 +72,8 @@ Respecter plus précisément la maquette
             <button type="submit" class="btn btn-success">Envoyer</button>
         </div>
     </form>
+
+    
 
 <?php $content = ob_get_clean(); ?>
 <?php require('template.php'); ?>

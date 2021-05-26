@@ -1,4 +1,6 @@
 <?php
+ 
+use \portfolio\model\CommentManager;
 
 function projectList() {
     require('./assets/php/view/frontend/projectList.php');
@@ -23,4 +25,17 @@ function showFormation() {
 }
 function showContact(){
     require('./assets/php/view/frontend/contact.php');
+}
+function showLogin(){
+    require('./assets/php/view/frontend/connexion.php');
+} 
+function addComment(){
+$commentManager = new CommentManager();
+$affectedLines = $commentManager->postComment($author, $comment);
+if ($affectedLines === false) {
+    throw new Exception('Impossible d\'ajouter le commentaire !');
+} else {
+    header('./assets/php/view/frontend/projectP1.php');
+}
+
 }
