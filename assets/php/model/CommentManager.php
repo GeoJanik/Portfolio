@@ -4,7 +4,7 @@ namespace portfolio\model;
 class CommentManager extends Manager
 {
      // Posté un commentaire
-     public function postComment($author, $comment) {
+     public function insertComment($author, $comment) {
         $db = $this->dbConnect();
         $comments = $db->prepare('INSERT INTO comments(post_id, author, comment, comment_date, report) VALUES(?, ?, ?, NOW(), false)');
         $affectedLines = $comments->execute(array($author, $comment));

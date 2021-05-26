@@ -1,6 +1,6 @@
 <?php
  
-use \portfolio\model\CommentManager;
+ use \portfolio\model\CommentManager;
 
 function projectList() {
     require('./assets/php/view/frontend/projectList.php');
@@ -31,7 +31,7 @@ function showLogin(){
 } 
 function addComment(){
 $commentManager = new CommentManager();
-$affectedLines = $commentManager->postComment($author, $comment);
+$affectedLines = $commentManager->insertComment($author, $comment);
 if ($affectedLines === false) {
     throw new Exception('Impossible d\'ajouter le commentaire !');
 } else {
