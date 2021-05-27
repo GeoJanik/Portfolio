@@ -14,4 +14,16 @@
             <button type="submit" class="btn btn-success">Envoyer</button>
         </div>
     </form>
+    
+
+    <?php
+while ($comment = $comments->fetch())
+{
+?>
+    <p><strong><?= htmlspecialchars($comment['author']) ?></strong> le <?= $comment['comment_date_fr'] ?></p>
+    <p><?= nl2br(htmlspecialchars($comment['comment'])) ?></p>
+<?php
+}
+?>
+
 </div>

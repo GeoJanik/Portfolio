@@ -54,6 +54,3 @@ Utilisation d'un support de présentation <br>
 6. Axes d'amélioration :
 <br>
 Respecter plus précisément la maquette
-
-
-

@@ -54,21 +54,3 @@ Utilisation d'un support de présentation <br>
 6. Axes d'amélioration :
 <br>
 Respecter plus précisément la maquette
-
-<h3>UN COMMENTAIRE ? UN AVIS ? RIEN A DIRE ? FAIT LE SAVOIR JUSTE EN DESSOUS</h3>
-
-<div class="formComment">
-    <form action="" method="post">
-        <div>
-            <label for="author">Auteur</label><br />
-            <input type="text" id="author" name="author" />
-        </div>
-        <div>
-            <label for="comment">Commentaire</label><br />
-            <textarea id="comment" name="comment"></textarea>
-        </div> <br>
-        <div>
-            <button type="submit" class="btn btn-success">Envoyer</button>
-        </div>
-    </form>
-

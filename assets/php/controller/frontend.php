@@ -4,31 +4,22 @@ use portfolio\model\CommentManager;
 require('./assets/php/model/CommentManager.php');
 
 
+function showProject($idProject) {
+    if($idProject == 1) {
+        require('./assets/php/view/frontend/projectP1.php');
+    } else if($idProject == 2) {
+        require('./assets/php/view/frontend/projectP2.php');    
+    } else if($idProject == 3) {
+        require('./assets/php/view/frontend/projectP3.php');   
+    } else if ($idProject == 4) {
+        require('./assets/php/view/frontend/projectP4.php');    
+    }
+    require('./assets/php/view/frontend/showComment.php');
+}
+
 function projectList()
 {
     require('./assets/php/view/frontend/projectList.php');
-
-}
-function showProjectP1()
-{
-    $idProject = 1;
-    require('./assets/php/view/frontend/projectP1.php');
-    require('./assets/php/view/frontend/showComment.php');
-}
-function showProjectP2()
-{
-    $idProject = 2;
-    require('./assets/php/view/frontend/projectP2.php');
-}
-function showProjectP3()
-{
-    $idProject = 3;
-    require('./assets/php/view/frontend/projectP3.php');
-}
-function showProjectP4()
-{
-    $idProject = 4;
-    require('./assets/php/view/frontend/projectP4.php');
 }
 function showSkill()
 {

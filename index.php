@@ -3,19 +3,16 @@
 require('./assets/php/controller/frontend.php');
 require('./assets/php/controller/backend.php');
 
+
+
+
 try { 
     ob_start(); 
     if (isset($_GET['action'])) {
         if($_GET['action'] == 'projectList') {
             projectList();
-        } else if ($_GET['action'] == 'projectP1') {
-            showProjectP1();
-        } else if ($_GET['action'] == 'projectP2') {
-            showProjectP2();
-        } else if ($_GET['action'] == 'projectP3') {
-            showProjectP3();
-        } else if ($_GET['action'] == 'projectP4') {
-            showProjectP4();
+        } else if($_GET['action'] == 'showProject') {
+            showProject($_GET['idProject']);
         } else if ($_GET['action'] == 'skill') {
             showSkill();
         } else if ($_GET['action'] == 'formation') {
@@ -32,7 +29,9 @@ try {
             showAdminContact();
         } else if ($_GET['action'] == 'addComment'){
                 if (!empty($_POST['author']) && !empty($_POST['comment'])) {
-                    addComment($_GET['idProject'], $_POST['author'], $_POST['comment']);
+                    $idProject = $_GET['idProject'];
+                    addComment($idProject, $_POST['author'], $_POST['comment']);
+                    showProject($idProject);
                 }
              else {
                 echo 'Erreur';
