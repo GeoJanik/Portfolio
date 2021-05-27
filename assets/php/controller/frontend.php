@@ -7,12 +7,20 @@ require('./assets/php/model/CommentManager.php');
 function showProject($idProject) {
     if($idProject == 1) {
         require('./assets/php/view/frontend/projectP1.php');
+        $commentManager = new CommentManager();
+        $comments = $commentManager->getComments($idProject);
     } else if($idProject == 2) {
-        require('./assets/php/view/frontend/projectP2.php');    
+        require('./assets/php/view/frontend/projectP2.php'); 
+        $commentManager = new CommentManager(); 
+        $comments = $commentManager->getComments($idProject);  
     } else if($idProject == 3) {
-        require('./assets/php/view/frontend/projectP3.php');   
+        require('./assets/php/view/frontend/projectP3.php'); 
+        $commentManager = new CommentManager();
+        $comments = $commentManager->getComments($idProject);  
     } else if ($idProject == 4) {
-        require('./assets/php/view/frontend/projectP4.php');    
+        require('./assets/php/view/frontend/projectP4.php'); 
+        $commentManager = new CommentManager(); 
+        $comments = $commentManager->getComments($idProject);  
     }
     require('./assets/php/view/frontend/showComment.php');
 }
