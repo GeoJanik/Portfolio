@@ -1,5 +1,4 @@
 <?php $title = 'P1'; ?>
-<?php ob_start(); ?>
 
 <H1>PROJET BLOG</H1>
 
@@ -73,5 +72,3 @@ Respecter plus précisément la maquette
         </div>
     </form>
 
-<?php $content = ob_get_clean(); ?>
-<?php require('template.php'); ?>

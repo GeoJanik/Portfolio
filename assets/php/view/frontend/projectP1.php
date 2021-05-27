@@ -1,5 +1,4 @@
 <?php $title = 'P1'; ?>
-<?php ob_start(); ?>
 
 <H1>PROJET WEBAGENCY</H1>
 
@@ -56,24 +55,5 @@ Utilisation d'un support de présentation <br>
 <br>
 Respecter plus précisément la maquette
 
-<h3>UN COMMENTAIRE ? UN AVIS ? RIEN A DIRE ? FAIT LE SAVOIR JUSTE EN DESSOUS</h3>
 
-<div class="formComment">
-    <form action="index.php?action=addComment" method="post">
-        <div>
-            <label for="author">Auteur</label><br />
-            <input type="text" id="author" name="author" />
-        </div>
-        <div>
-            <label for="comment">Commentaire</label><br />
-            <textarea id="comment" name="comment"></textarea>
-        </div> <br>
-        <div>
-            <button type="submit" class="btn btn-success">Envoyer</button>
-        </div>
-    </form>
 
-    
-
-<?php $content = ob_get_clean(); ?>
-<?php require('template.php'); ?>

@@ -1,6 +1,4 @@
 <?php $title = 'Projet P5'; ?>
-<?php ob_start(); ?>
-
 
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -110,5 +108,3 @@
 
 
 
-<?php $content = ob_get_clean(); ?>
-<?php require('template.php'); ?>

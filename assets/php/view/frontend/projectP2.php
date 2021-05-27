@@ -1,5 +1,4 @@
 <?php $title = 'Projet 2'; ?>
-<?php ob_start(); ?>
 
 <H1>PROJET IREKI</H1>
 
@@ -108,5 +107,4 @@
         </div>
     </form>
 
-    <?php $content = ob_get_clean(); ?>
-    <?php require('template.php'); ?>
+   
