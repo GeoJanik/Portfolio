@@ -1,26 +1,30 @@
 <?php
 
 use portfolio\model\CommentManager;
+use portfolio\model\UserManager;
+
 require('./assets/php/model/CommentManager.php');
+require('./assets/php/model/UserManager.php');
 
 // Affichage du projet selectionné
-function showProject($idProject) {
-    if($idProject == 1) {
+function showProject($idProject)
+{
+    if ($idProject == 1) {
         require('./assets/php/view/frontend/projectP1.php');
         $commentManager = new CommentManager();
         $comments = $commentManager->getComments($idProject);
-    } else if($idProject == 2) {
-        require('./assets/php/view/frontend/projectP2.php'); 
-        $commentManager = new CommentManager(); 
-        $comments = $commentManager->getComments($idProject);  
-    } else if($idProject == 3) {
-        require('./assets/php/view/frontend/projectP3.php'); 
+    } else if ($idProject == 2) {
+        require('./assets/php/view/frontend/projectP2.php');
         $commentManager = new CommentManager();
-        $comments = $commentManager->getComments($idProject);  
+        $comments = $commentManager->getComments($idProject);
+    } else if ($idProject == 3) {
+        require('./assets/php/view/frontend/projectP3.php');
+        $commentManager = new CommentManager();
+        $comments = $commentManager->getComments($idProject);
     } else if ($idProject == 4) {
-        require('./assets/php/view/frontend/projectP4.php'); 
-        $commentManager = new CommentManager(); 
-        $comments = $commentManager->getComments($idProject);  
+        require('./assets/php/view/frontend/projectP4.php');
+        $commentManager = new CommentManager();
+        $comments = $commentManager->getComments($idProject);
     }
     require('./assets/php/view/frontend/showComment.php');
 }
@@ -59,10 +63,38 @@ function addComment($idProject, $author, $comment)
 }
 
 // Report un commentaire
-function reportComment($commentId, $idProject) {
+function reportComment($commentId, $idProject)
+{
     $report = new CommentManager();
     $reportComment = $report->updateReport($commentId);
     showProject($idProject);
     echo "<script>alert(\"Commentaire repporté\")</script>";
 }
 
+// Connexion
+function loginSubmit($pseudo, $pass)
+{
+    // Recup de l'utilisateur 
+    $userManager = new UserManager();
+    $user = $userManager->login($pseudo);
+    $isPassWordCorrect = password_verify($pass, $user['pass']);
+
+    // Si on trouve rien dans la bdd
+    if (!$user) {
+        echo "<script>alert(\"Nom d'utilisateur incorect\")</script>";
+        showLogin();
+    }
+    // Sinon, si un user existe et si le pass est correcte
+    elseif ($isPassWordCorrect) {
+        var_dump('session start');
+        session_start();
+        $_SESSION['id'] = $user['id'];
+        $_SESSION['pseudo'] = $pseudo;
+        header('Location: index.php');
+    }
+    // Sinon on affiche une alerte d'erreur
+    else {
+        echo "<script>alert(\"Mot de passe incorrect\")</script>";
+        showLogin();
+    }
+}

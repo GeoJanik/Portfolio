@@ -1,5 +1,5 @@
 <?php $title = 'Projet P5'; ?>
-<?php ob_start(); ?>
+
 <h1>Ici les mauvais commentaires</h1>
 <?php 
 while($reportComment = $reportedComment->fetch()) {
@@ -17,5 +17,3 @@ while($reportComment = $reportedComment->fetch()) {
 <?php
 }
 ?>
-<?php $content = ob_get_clean(); ?>
-<?php require('./assets/php/view/frontend/template.php'); ?>

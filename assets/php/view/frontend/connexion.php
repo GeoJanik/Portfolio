@@ -1,5 +1,5 @@
 <?php $title = 'Projet P5'; ?>
-<?php ob_start(); ?>
+
 
 <h1>CONNEXION</h1>
 
@@ -18,6 +18,3 @@
     <button type="submit" class="btn btn-primary">Connexion</button>
   </form>
 </div>
-
-<?php $content = ob_get_clean(); ?>
-<?php require('template.php'); ?>

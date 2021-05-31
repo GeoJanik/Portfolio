@@ -16,6 +16,14 @@
 
 <body>
 
+<?php
+        if(empty($_SESSION['id'])) {
+            $conected = false;
+            } else {
+                $conected = true;
+            }
+?>
+
   <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -58,8 +66,18 @@
     <a href="#top"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
   </div>
 
-
-
+  <footer class="footer">
+    <div class="container">
+    <span class="text-muted">Place sticky footer content here.</span>
+    <?php
+        if(isset($_SESSION['id']) AND isset($_SESSION['pseudo'])){
+            echo 'Vous êtes connecté à votre compte: ' . $_SESSION['pseudo'];
+        } else {
+            echo 'Aucun utilisateur connecté';
+        }
+        ?>
+    </div>
+  </footer>
 
 </body>
 

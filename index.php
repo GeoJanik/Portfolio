@@ -3,9 +3,6 @@
 require('./assets/php/controller/frontend.php');
 require('./assets/php/controller/backend.php');
 
-
-
-
 try {
     ob_start();
     if (isset($_GET['action'])) {
@@ -37,6 +34,8 @@ try {
             if (!empty($_GET['commentId'])) {
                 reportComment($_GET['commentId'], $_GET['idProject']);
             }
+        } else if ($_GET['action'] == 'loginSubmit') {
+            loginSubmit($_POST['pseudo'], $_POST['pass']);
         } else if ($_GET['action'] == 'deleteComment') {
             if (!empty($_GET['commentId'])) {
                 deleteComment($_GET['commentId']);

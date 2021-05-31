@@ -1,5 +1,5 @@
 <?php $title = 'Projet P5'; ?>
-<?php ob_start(); ?>
+
 
 <h1>FORMULAIRE DE CONTACT</h1>
 <p>VOIR ICONE AVEC MARINE ICI</p>
@@ -68,9 +68,4 @@
                             </div>
                         </div>
                     </div>
- 
                 </form>
-
-
-<?php $content = ob_get_clean(); ?>
-<?php require('template.php'); ?>

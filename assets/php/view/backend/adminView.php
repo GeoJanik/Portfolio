@@ -1,5 +1,5 @@
 <?php $title = 'Projet P5'; ?>
-<?php ob_start(); ?>
+
 
 <H1>Bienvenu dans la partie caché de ce site ... L'ADMINISTRATION !!!!!!</H1> <br>
 
@@ -34,5 +34,3 @@
         </div>
     </div>
 </div>
-<?php $content = ob_get_clean(); ?>
-<?php require('./assets/php/view/frontend/template.php'); ?>
