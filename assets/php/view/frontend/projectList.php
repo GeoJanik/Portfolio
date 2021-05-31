@@ -67,7 +67,7 @@
         <h5 class="card-title">Intégrez une maquette</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
-          <a href="index.php?action=showProject&amp;idProject=1" class="btn btn-primary">Go somewhere</a>
+        <a href="index.php?action=showProject&amp;idProject=1" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@
         <h5 class="card-title">Créez un site WordPress</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
-          <a href="index.php?action=showProject&amp;idProject=2" class="btn btn-primary">Go somewhere</a>
+        <a href="index.php?action=showProject&amp;idProject=2" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -89,7 +89,7 @@
         <h5 class="card-title">Carte intéractive de vélos</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content.</p>
-          <a href="index.php?action=showProject&amp;idProject=3" class="btn btn-primary">Go somewhere</a>
+        <a href="index.php?action=showProject&amp;idProject=3" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -100,11 +100,8 @@
         <h5 class="card-title">Créez un blog</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
-          <a href="index.php?action=showProject&amp;idProject=4" class="btn btn-primary">Go somewhere</a>
+        <a href="index.php?action=showProject&amp;idProject=4" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
 </div>
-
-
-

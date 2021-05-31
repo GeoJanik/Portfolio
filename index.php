@@ -3,6 +3,8 @@
 require('./assets/php/controller/frontend.php');
 require('./assets/php/controller/backend.php');
 
+session_start();
+
 try {
     ob_start();
     if (isset($_GET['action'])) {

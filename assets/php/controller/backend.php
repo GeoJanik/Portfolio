@@ -3,23 +3,27 @@
 use portfolio\model\CommentManager;
 
 // View de l'admin
-function showAdmin(){
+function showAdmin()
+{
     require("./assets/php/view/backend/adminView.php");
 }
 // View de l'admin des commentaire
-function showAdminComment(){
+function showAdminComment()
+{
     $commentManager = new CommentManager();
     $reportedComment = $commentManager->getReportCommment();
     require('./assets/php/view/backend/adminComment.php');
 }
 
 // View admin formulaire de contact
-function showAdminContact(){
-require("./assets/php/view/backend/adminContact.php");
+function showAdminContact()
+{
+    require("./assets/php/view/backend/adminContact.php");
 }
 
 // Supprimer les commentaires
-function deleteComment($commentId) {
+function deleteComment($commentId)
+{
     $commentManager = new CommentManager();
     $commentManager->deleteValues($commentId);
     showAdminComment();

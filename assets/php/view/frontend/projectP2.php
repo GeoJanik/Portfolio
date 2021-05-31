@@ -22,15 +22,16 @@
         Activités du mois, Contact
     </li>
     <li>
-    Un Champ de recherche doit aussi être présent pour faciliter l’accès au contenu.
-     Il n'est pas nécessaire que celui-ci fonctionne pour cet exercice.
+        Un Champ de recherche doit aussi être présent pour faciliter l’accès au contenu.
+        Il n'est pas nécessaire que celui-ci fonctionne pour cet exercice.
     </li>
     <li>
-    Les pages doivent être conçues en responsive, de telle sorte à ce que le site s’affiche correctement sur toutes
-     les résolutions. La navigation sur mobile et tablettes doit être naturelle et ne doit pas nécessiter de zoomer.
+        Les pages doivent être conçues en responsive, de telle sorte à ce que le site s’affiche correctement sur toutes
+        les résolutions. La navigation sur mobile et tablettes doit être naturelle et ne doit pas nécessiter de zoomer.
     </li>
     <li>
-    Le client veut valider l'intérêt des animations en pur CSS 3, vous devez donc en proposer une sur l'une des pages.
+        Le client veut valider l'intérêt des animations en pur CSS 3, vous devez donc en proposer une sur l'une des
+        pages.
     </li>
 </ul>
 
@@ -38,32 +39,33 @@
 
 <ul>
     <li>
-    La page « Actualités » affiche la liste des billets d’actualité.
-     Les billets ne seront pas signés par un auteur : ils seront tous postés au nom de la ville.
+        La page « Actualités » affiche la liste des billets d’actualité.
+        Les billets ne seront pas signés par un auteur : ils seront tous postés au nom de la ville.
     </li>
     <li>
-    La page « Plus d’infos »  présente différents types d’activités sportives et culturelles organisées 
-    (musée de la ville, marathon… affichez-en au départ au moins 6 différentes). L'administrateur du site
-     doit pouvoir indiquer le nom de l’activité, une description et une image.
+        La page « Plus d’infos » présente différents types d’activités sportives et culturelles organisées
+        (musée de la ville, marathon… affichez-en au départ au moins 6 différentes). L'administrateur du site
+        doit pouvoir indiquer le nom de l’activité, une description et une image.
     </li>
     <li>
-    La page « Activités du mois » liste au moins 10 activités à venir dans le mois sous forme de tableau
-     (avec date, titre et court descriptif). Les lignes doivent se colorer au survol de la souris pour qu’on 
-     puisse se repérer. Un bouton « Inscription » à droite de chaque ligne du tableau ouvre un formulaire permettant
-      de saisir son nom.  L'envoi du formulaire n'a pas d'effet pour cet exercice.
+        La page « Activités du mois » liste au moins 10 activités à venir dans le mois sous forme de tableau
+        (avec date, titre et court descriptif). Les lignes doivent se colorer au survol de la souris pour qu’on
+        puisse se repérer. Un bouton « Inscription » à droite de chaque ligne du tableau ouvre un formulaire permettant
+        de saisir son nom. L'envoi du formulaire n'a pas d'effet pour cet exercice.
     </li>
     <li>
-    La page « Contact » affiche un formulaire de contact structuré avec les champs « Titre du message »,
-     « Votre nom », « Votre date de naissance », « Votre e-mail », une case à cocher « Résident de la ville », 
-     un menu déroulant « Nationalité « et un champ « Message » où on peut rédiger son message. Un petit texte 
-     d’aide s’affiche sous le champ date de naissance pour dire que le format JJ/MM/AAAA est attendu.
+        La page « Contact » affiche un formulaire de contact structuré avec les champs « Titre du message »,
+        « Votre nom », « Votre date de naissance », « Votre e-mail », une case à cocher « Résident de la ville »,
+        un menu déroulant « Nationalité « et un champ « Message » où on peut rédiger son message. Un petit texte
+        d’aide s’affiche sous le champ date de naissance pour dire que le format JJ/MM/AAAA est attendu.
     </li>
 </ul>
 
-<p>Le site doit avoir été optimisé pour le référencement naturel et doit suivre les bonnes pratiques d'accessibilité (WCAG 2.0 niveau A).</p>
+<p>Le site doit avoir été optimisé pour le référencement naturel et doit suivre les bonnes pratiques d'accessibilité
+    (WCAG 2.0 niveau A).</p>
 
-<h2>COMPTE RENDU DU JURY</h2> 
-<p>Projet validé</p> 
+<h2>COMPTE RENDU DU JURY</h2>
+<p>Projet validé</p>
 <p>Évaluation des livrables selon les critères du projet</p>
 <ul>
     <li>Le cahier des charges est globalement respecté.</li>
@@ -74,7 +76,7 @@
         Autrement il n’y a pas d’optimisation structurelle sur le site ou les pages principales.</li>
 </ul>
 
-<p>Évaluation de la présentation orale et sa conformité aux attentes</p> 
+<p>Évaluation de la présentation orale et sa conformité aux attentes</p>
 <ul>
     <li>La présentation est complète.</li>
     <li>Elle est agréable et adaptée à un client.</li>

@@ -74,6 +74,7 @@ function reportComment($commentId, $idProject)
 // Connexion
 function loginSubmit($pseudo, $pass)
 {
+
     // Recup de l'utilisateur 
     $userManager = new UserManager();
     $user = $userManager->login($pseudo);
@@ -86,11 +87,11 @@ function loginSubmit($pseudo, $pass)
     }
     // Sinon, si un user existe et si le pass est correcte
     elseif ($isPassWordCorrect) {
-        var_dump('session start');
         session_start();
         $_SESSION['id'] = $user['id'];
         $_SESSION['pseudo'] = $pseudo;
-        header('Location: index.php');
+        // header('Location: index.php');
+
     }
     // Sinon on affiche une alerte d'erreur
     else {
