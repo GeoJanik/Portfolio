@@ -22,6 +22,9 @@ while ($comment = $comments->fetch())
 ?>
     <p><strong><?= htmlspecialchars($comment['author']) ?></strong> le <?= $comment['comment_date_fr'] ?></p>
     <p><?= nl2br(htmlspecialchars($comment['comment'])) ?></p>
+    <a href="index.php?action=commentReport&amp;commentId=<?= $comment['id']?>&amp;idProject=<?= $idProject ?>">
+    <button type="button" class="btn btn-danger">Signaler</button></a>
+
     <?php
 }
 ?>

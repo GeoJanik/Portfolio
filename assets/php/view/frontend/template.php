@@ -12,7 +12,6 @@
   <link href="assets/public/css/style.css" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/b0fe328ff4.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>

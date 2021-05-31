@@ -19,4 +19,30 @@ class CommentManager extends Manager
         $comments->execute(array($idProject));
         return $comments;
     }
+
+    // update des commentaire à reporté
+    public function updateReport($commentId) {
+        $db = $this->dbConnect();
+        $reportValues = $db->prepare('UPDATE comments SET report = 1 WHERE id = ?');
+        $report = $reportValues->execute(array($commentId));
+        return $report;
+    }
+
+    // Selectionné commentaire reporté
+
+    public function getReportCommment() {
+        $db = $this->dbConnect();
+        $reportcomment = $db->prepare('SELECT comment, author, id FROM comments WHERE report = 1');
+        $reportcomment->execute();
+        return $reportcomment;
+
+    }
+
+    // Supprimer commentaire en bdd
+    public function deleteValues($commentId) {
+        $db = $this->dbConnect();
+        $values = $db->prepare('DELETE FROM comments where id = ?');
+        $values->execute(array($commentId));
+        return;
+    }
 }

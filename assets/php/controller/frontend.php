@@ -3,7 +3,7 @@
 use portfolio\model\CommentManager;
 require('./assets/php/model/CommentManager.php');
 
-
+// Affichage du projet selectionné
 function showProject($idProject) {
     if($idProject == 1) {
         require('./assets/php/view/frontend/projectP1.php');
@@ -45,6 +45,8 @@ function showLogin()
 {
     require('./assets/php/view/frontend/connexion.php');
 }
+
+// Ajouter un commentaire
 function addComment($idProject, $author, $comment)
 {
     $commentManager = new CommentManager();
@@ -55,3 +57,12 @@ function addComment($idProject, $author, $comment)
         header('./assets/php/view/frontend/projectP1.php');
     }
 }
+
+// Report un commentaire
+function reportComment($commentId, $idProject) {
+    $report = new CommentManager();
+    $reportComment = $report->updateReport($commentId);
+    showProject($idProject);
+    echo "<script>alert(\"Commentaire repporté\")</script>";
+}
+
