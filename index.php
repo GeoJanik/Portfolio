@@ -2,7 +2,6 @@
 
 require('./assets/php/controller/frontend.php');
 require('./assets/php/controller/backend.php');
-
 session_start();
 
 try {
@@ -42,7 +41,13 @@ try {
             if (!empty($_GET['commentId'])) {
                 deleteComment($_GET['commentId']);
             }
-        } 
+        } else if ($_GET['action'] == 'logOut') {
+            logOut();
+        } else if ($_GET['action'] == 'form') {
+            if (!empty($_POST['firstName']) && !empty($_POST['secondName']) && (!empty($_POST['email']) && !empty($_POST['comment']))) {
+                form($_POST['firstName'], $_POST['secondName'], $_POST['email'], $_POST['comment'],);
+            }
+        }
     } else {
         projectList();
     }

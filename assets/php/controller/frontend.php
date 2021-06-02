@@ -2,9 +2,11 @@
 
 use portfolio\model\CommentManager;
 use portfolio\model\UserManager;
+use portfolio\model\UserForm;
 
 require('./assets/php/model/CommentManager.php');
 require('./assets/php/model/UserManager.php');
+require('./assets/php/model/UserForm.php');
 
 // Affichage du projet selectionné
 function showProject($idProject)
@@ -90,7 +92,7 @@ function loginSubmit($pseudo, $pass)
         session_start();
         $_SESSION['id'] = $user['id'];
         $_SESSION['pseudo'] = $pseudo;
-        // header('Location: index.php');
+        header('Location: index.php');
 
     }
     // Sinon on affiche une alerte d'erreur
@@ -98,4 +100,20 @@ function loginSubmit($pseudo, $pass)
         echo "<script>alert(\"Mot de passe incorrect\")</script>";
         showLogin();
     }
+}
+
+// Deconnexion
+function logOut(){
+    $_SESSION = array();
+    session_destroy();
+    header('Location: index.php');
+}
+
+
+function form($firstName, $secondName, $email, $comment) {
+    $userForm = new UserForm();
+    $form = $userForm->insertForm($firstName, $secondName, $email, $comment);
+    echo "<script>alert(\"Votre demande est enregistré\")</script>";
+    header('Location: index.php');
+
 }

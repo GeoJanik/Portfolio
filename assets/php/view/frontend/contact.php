@@ -5,7 +5,7 @@
 <p>VOIR ICONE AVEC MARINE ICI</p>
 
 
-<form id="contact-form" method="post" action="" role="form">
+<form id="contact-form" method="post" action="index.php?action=form" role="form">
 
     <div class="messages"></div>
 
@@ -15,7 +15,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="form_name">Nom *</label>
-                    <input id="form_name" type="text" name="name" class="form-control"
+                    <input id="form_name" type="text" name="secondName" class="form-control"
                         placeholder="Veuillez entrer votre nom *" required="required" data-error="Nom est obligatoire.">
                     <div class="help-block with-errors"></div>
                 </div>
@@ -23,7 +23,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="form_lastname">Prénom *</label>
-                    <input id="form_lastname" type="text" name="surname" class="form-control"
+                    <input id="form_lastname" type="text" name="firstName" class="form-control"
                         placeholder="Veuillez entre votre prénom *" required="required"
                         data-error="Prénom est obligatoire.">
                     <div class="help-block with-errors"></div>
@@ -43,7 +43,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="form_need">Veuillez préciser votre besoin *</label>
-                    <select id="form_need" name="need" class="form-control" required="required"
+                    <select id="form_need" name="" class="form-control" required="required"
                         data-error="Veuillez préciser votre besoin.">
                         <option value=""></option>
                         <option value="Demande de devis">Demande de devis</option>
@@ -59,7 +59,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="form_message">Message *</label>
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Votre Message *"
+                    <textarea id="form_message" name="comment" class="form-control" placeholder="Votre Message *"
                         rows="4" required="required" data-error="Veuillez remplir le champ Message."></textarea>
                     <div class="help-block with-errors"></div>
                 </div>

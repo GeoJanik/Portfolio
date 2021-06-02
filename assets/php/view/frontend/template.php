@@ -41,15 +41,35 @@
             <li class="nav-item">
               <a class="nav-link" href="index.php?action=contact">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.php?action=login">Connexion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Déconnexion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.php?action=admin">Admin</a>
-            </li>
+            <?php
+            if (!$conected) {
+            ?>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?action=login">Connexion</a>
+              </li>
+            <?php
+            }
+            ?>
+
+            <?php
+            if ($conected) {
+            ?>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?action=logOut">Déconnexion</a>
+              </li>
+            <?php
+            }
+            ?>
+            <?php
+            if ($conected) {
+            ?>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?action=admin">Admin</a>
+              </li>
+            <?php
+            }
+            ?>
+
           </ul>
         </div>
       </div>
