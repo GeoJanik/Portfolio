@@ -110,9 +110,9 @@ function logOut(){
 }
 
 
-function form($firstName, $secondName, $email, $comment) {
+function form($firstName, $secondName, $email, $objectForm, $comment) {
     $userForm = new UserForm();
-    $form = $userForm->insertForm($firstName, $secondName, $email, $comment);
+    $form = $userForm->insertForm($firstName, $secondName, $email, $objectForm, $comment);
     echo "<script>alert(\"Votre demande est enregistré\")</script>";
     header('Location: index.php');
 

@@ -45,7 +45,7 @@ try {
             logOut();
         } else if ($_GET['action'] == 'form') {
             if (!empty($_POST['firstName']) && !empty($_POST['secondName']) && (!empty($_POST['email']) && !empty($_POST['comment']))) {
-                form($_POST['firstName'], $_POST['secondName'], $_POST['email'], $_POST['comment'],);
+                form($_POST['firstName'], $_POST['secondName'], $_POST['email'], $_POST['objectForm'], $_POST['comment']);
             }
         }
     } else {

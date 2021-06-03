@@ -1,6 +1,9 @@
 <?php
 
 use portfolio\model\CommentManager;
+use portfolio\model\UserForm;
+
+
 
 // View de l'admin
 function showAdmin()
@@ -16,9 +19,10 @@ function showAdminComment()
 }
 
 // View admin formulaire de contact
-function showAdminContact()
-{
-    require("./assets/php/view/backend/adminContact.php");
+function showAdminContact() {
+    $userForm = new UserForm();
+    $valueForm = $userForm->selectForm(); 
+    require('./assets/php/view/backend/adminContact.php');
 }
 
 // Supprimer les commentaires
@@ -29,4 +33,6 @@ function deleteComment($commentId)
     showAdminComment();
     echo "<script>alert(\"Commentaire supprimer\")
                     </script>";
+
 }
+
