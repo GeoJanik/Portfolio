@@ -14,7 +14,7 @@
             <button type="submit" class="btn btn-success">Envoyer</button>
         </div>
     </form>
-    
+
     <?php
     while ($comment = $comments->fetch()) {
     ?>

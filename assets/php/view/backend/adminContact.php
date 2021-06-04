@@ -14,7 +14,7 @@ while ($selectForms = $valueForm->fetch()) {
   <div class="card-body">
     <h5 class="card-title">MESSAGE DU DESTINATAIRE</h5>
     <p class="card-text"><?= htmlspecialchars($selectForms['comment']) ?></p>
-    <a href="#" class="btn btn-primary">Supprimer</a>
+    <a href="index.php?action=deleteForm&amp;id=<?= $selectForms['id'] ?> " class="btn btn-primary">Supprimer</a>
   </div>
   <div class="card-footer text-muted">
    <?= $selectForms['dateFormFr'] ?>

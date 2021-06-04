@@ -47,6 +47,10 @@ try {
             if (!empty($_POST['firstName']) && !empty($_POST['secondName']) && (!empty($_POST['email']) && !empty($_POST['comment']))) {
                 form($_POST['firstName'], $_POST['secondName'], $_POST['email'], $_POST['objectForm'], $_POST['comment']);
             }
+        } else if ($_GET['action'] == 'deleteForm') {
+            if (!empty($_GET['id'])) {
+                deleteForm($_GET['id']);
+            }
         }
     } else {
         projectList();

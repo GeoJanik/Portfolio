@@ -93,7 +93,6 @@ function loginSubmit($pseudo, $pass)
         $_SESSION['id'] = $user['id'];
         $_SESSION['pseudo'] = $pseudo;
         header('Location: index.php');
-
     }
     // Sinon on affiche une alerte d'erreur
     else {
@@ -103,17 +102,18 @@ function loginSubmit($pseudo, $pass)
 }
 
 // Deconnexion
-function logOut(){
+function logOut()
+{
     $_SESSION = array();
     session_destroy();
     header('Location: index.php');
 }
 
 
-function form($firstName, $secondName, $email, $objectForm, $comment) {
+function form($firstName, $secondName, $email, $objectForm, $comment)
+{
     $userForm = new UserForm();
     $form = $userForm->insertForm($firstName, $secondName, $email, $objectForm, $comment);
     echo "<script>alert(\"Votre demande est enregistré\")</script>";
     header('Location: index.php');
-
 }

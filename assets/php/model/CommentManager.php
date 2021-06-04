@@ -29,7 +29,6 @@ class CommentManager extends Manager
     }
 
     // Selectionné commentaire reporté
-
     public function getReportCommment() {
         $db = $this->dbConnect();
         $reportcomment = $db->prepare('SELECT comment, author, id FROM comments WHERE report = 1');

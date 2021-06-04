@@ -19,9 +19,10 @@ function showAdminComment()
 }
 
 // View admin formulaire de contact
-function showAdminContact() {
+function showAdminContact()
+{
     $userForm = new UserForm();
-    $valueForm = $userForm->selectForm(); 
+    $valueForm = $userForm->selectForm();
     require('./assets/php/view/backend/adminContact.php');
 }
 
@@ -31,8 +32,13 @@ function deleteComment($commentId)
     $commentManager = new CommentManager();
     $commentManager->deleteValues($commentId);
     showAdminComment();
-    echo "<script>alert(\"Commentaire supprimer\")
-                    </script>";
-
+    echo "<script>alert(\"Commentaire supprimer\")</script>";
 }
 
+function deleteForm($id)
+{
+    $userForm = new UserForm();
+    $userForm->deleteForm($id);
+    showAdminContact();
+    echo "<script>alert(\"Formulaire supprimer\")</script>";
+}
