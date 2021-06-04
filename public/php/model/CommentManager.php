@@ -1,6 +1,6 @@
 <?php
 namespace portfolio\model;
-require('./assets/php/model/Manager.php');
+require('./public/php/model/Manager.php');
 
 class CommentManager extends Manager
 {

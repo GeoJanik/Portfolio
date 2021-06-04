@@ -8,14 +8,14 @@ use portfolio\model\UserForm;
 // View de l'admin
 function showAdmin()
 {
-    require("./assets/php/view/backend/adminView.php");
+    require("./public/php/view/backend/adminView.php");
 }
 // View de l'admin des commentaire
 function showAdminComment()
 {
     $commentManager = new CommentManager();
     $reportedComment = $commentManager->getReportCommment();
-    require('./assets/php/view/backend/adminComment.php');
+    require('./public/php/view/backend/adminComment.php');
 }
 
 // View admin formulaire de contact
@@ -23,7 +23,7 @@ function showAdminContact()
 {
     $userForm = new UserForm();
     $valueForm = $userForm->selectForm();
-    require('./assets/php/view/backend/adminContact.php');
+    require('./public/php/view/backend/adminContact.php');
 }
 
 // Supprimer les commentaires

@@ -1,7 +1,7 @@
 <?php
 
-require('./assets/php/controller/frontend.php');
-require('./assets/php/controller/backend.php');
+require('./public/php/controller/frontend.php');
+require('./public/php/controller/backend.php');
 session_start();
 
 try {
@@ -56,7 +56,7 @@ try {
         projectList();
     }
     $content = ob_get_clean();
-    require('./assets/php/view/frontend/template.php');
+    require('./public/php/view/frontend/template.php');
 } catch (Exception $e) {
     echo 'erreur : ' . $e->getMessage();
 }

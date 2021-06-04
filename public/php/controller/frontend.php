@@ -4,52 +4,52 @@ use portfolio\model\CommentManager;
 use portfolio\model\UserManager;
 use portfolio\model\UserForm;
 
-require('./assets/php/model/CommentManager.php');
-require('./assets/php/model/UserManager.php');
-require('./assets/php/model/UserForm.php');
+require('./public/php/model/CommentManager.php');
+require('./public/php/model/UserManager.php');
+require('./public/php/model/UserForm.php');
 
 // Affichage du projet selectionné
 function showProject($idProject)
 {
     if ($idProject == 1) {
-        require('./assets/php/view/frontend/projectP1.php');
+        require('./public/php/view/frontend/projectP1.php');
         $commentManager = new CommentManager();
         $comments = $commentManager->getComments($idProject);
     } else if ($idProject == 2) {
-        require('./assets/php/view/frontend/projectP2.php');
+        require('./public/php/view/frontend/projectP2.php');
         $commentManager = new CommentManager();
         $comments = $commentManager->getComments($idProject);
     } else if ($idProject == 3) {
-        require('./assets/php/view/frontend/projectP3.php');
+        require('./public/php/view/frontend/projectP3.php');
         $commentManager = new CommentManager();
         $comments = $commentManager->getComments($idProject);
     } else if ($idProject == 4) {
-        require('./assets/php/view/frontend/projectP4.php');
+        require('./public/php/view/frontend/projectP4.php');
         $commentManager = new CommentManager();
         $comments = $commentManager->getComments($idProject);
     }
-    require('./assets/php/view/frontend/showComment.php');
+    require('./public/php/view/frontend/showComment.php');
 }
 
 function projectList()
 {
-    require('./assets/php/view/frontend/projectList.php');
+    require('./public/php/view/frontend/projectList.php');
 }
 function showSkill()
 {
-    require('./assets/php/view/frontend/skill.php');
+    require('./public/php/view/frontend/skill.php');
 }
 function showFormation()
 {
-    require('./assets/php/view/frontend/formation.php');
+    require('./public/php/view/frontend/formation.php');
 }
 function showContact()
 {
-    require('./assets/php/view/frontend/contact.php');
+    require('./public/php/view/frontend/contact.php');
 }
 function showLogin()
 {
-    require('./assets/php/view/frontend/connexion.php');
+    require('./public/php/view/frontend/connexion.php');
 }
 
 // Ajouter un commentaire
@@ -60,7 +60,7 @@ function addComment($idProject, $author, $comment)
     if ($affectedLines === false) {
         throw new Exception('Impossible d\'ajouter le commentaire !');
     } else {
-        header('./assets/php/view/frontend/projectP1.php');
+        header('./public/php/view/frontend/projectP1.php');
     }
 }
 
