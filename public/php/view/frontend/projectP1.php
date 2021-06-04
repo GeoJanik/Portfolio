@@ -3,7 +3,7 @@
 <H1>PROJET WEBAGENCY</H1>
 
 <div class="divImg">
-    <img src="assets/public/img/P1.jpg" alt="P1">
+    <img src="assets/img/P1.jpg" alt="P1">
 </div>
 
 <h2>Missions !</h2>

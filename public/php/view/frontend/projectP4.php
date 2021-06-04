@@ -3,7 +3,7 @@
 <H1>PROJET BLOG</H1>
 
 <div class="divImg">
-    <img src="assets/public/img/P4.jpg" alt="P4">
+    <img src="assets/img/P4.jpg" alt="P4">
 </div>
 
 <h2>Missions ! blog</h2>

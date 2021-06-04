@@ -3,7 +3,7 @@
 <H1>PROJET IREKI</H1>
 
 <div class="divImg">
-    <img src="assets/public/img/P2.jpg" alt="P1">
+    <img src="assets/img/P2.jpg" alt="P1">
 </div>
 
 <h2>Missions ! ireki</h2>

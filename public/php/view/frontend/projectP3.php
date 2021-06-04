@@ -3,7 +3,7 @@
 <H1>PROJET VELO</H1>
 
 <div class="divImg">
-    <img src="assets/public/img/P3.jpg" alt="P1">
+    <img src="assets/img/P3.jpg" alt="P1">
 </div>
 
 <h2>Missions ! velo</h2>
