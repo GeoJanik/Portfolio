@@ -31,33 +31,56 @@ margin-top: 60px;
 
 }
 
-/* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
+/* SECTION SLIDER */
+#sectionSlider {
+    margin-top: 2%;
 }
 
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
+#slider {
+    width: 1000px;
+    margin: auto;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
+#slider>img {
+    width: 100%;
+    height: auto;
 }
 
-.carousel-item>img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
+#previous,
+#next {
+    cursor: pointer;
+    top: 183px;
+    font-size: 58px;
+    color: #004C6C;
+    padding: 10px;
 }
 
+.far:hover {
+    color: #3399cc;
+}
+
+#next {
+    right: 0;
+}
+
+#slider:hover #previous,
+#slider:hover #next {
+    opacity: 1;
+}
+
+#break,
+#play {
+    cursor: pointer;
+    font-size: 30px;
+    color: #004C6C;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/* FIN SECTION SLIDER */
 
 /* MARKETING CONTENT
   -------------------------------------------------- */

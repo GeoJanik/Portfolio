@@ -7,10 +7,10 @@ class Slider {
         this.play = document.getElementById("play");
         this.break = document.getElementById("break");
         this.img = document.getElementById("imgSlider");
-        this.tab = new Array("public/img/velo.png", "public/img/velo1.png", "public/img/velo2.png");
+        this.tab = new Array("assets/img/velo.png", "assets/img/velo1.png", "assets/img/velo2.png");
         this.img.src = this.tab[0];
         this.init();
-        console.log(img);
+        console.log("hello");
     }
 
     // FONCTION POUR REGROUPER LES FONCTION DE MON SLIDER
