@@ -30,6 +30,10 @@ try {
                 $idProject = $_GET['idProject'];
                 addComment($idProject, $_POST['author'], $_POST['comment']);
                 showProject($idProject);
+            } else{
+                echo "<script>alert(\"Remplir tout les champs svp\")
+                    </script>";
+                    showProject($_GET['idProject']);
             }
         } else if ($_GET['action'] == 'commentReport') {
             if (!empty($_GET['commentId'])) {
@@ -51,12 +55,16 @@ try {
             if (!empty($_GET['id'])) {
                 deleteForm($_GET['id']);
             }
+        } else if ($_GET['action'] == 'infos') {
+            infosView();
         }
     } else {
         projectList();
     }
     $content = ob_get_clean();
     require('./public/php/view/frontend/template.php');
+
 } catch (Exception $e) {
     echo 'erreur : ' . $e->getMessage();
+    // require page d'érreur
 }

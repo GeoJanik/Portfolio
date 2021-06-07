@@ -31,95 +31,9 @@ margin-top: 60px;
 
 }
 
-/* SECTION SLIDER */
-#sectionSlider {
-    margin-top: 2%;
+#imgSlider {
+  height: 490px;
 }
-
-#slider {
-    width: 1000px;
-    margin: auto;
-}
-
-#slider>img {
-    width: 100%;
-    height: auto;
-}
-
-#previous,
-#next {
-    cursor: pointer;
-    top: 183px;
-    font-size: 58px;
-    color: #004C6C;
-    padding: 10px;
-}
-
-.far:hover {
-    color: #3399cc;
-}
-
-#next {
-    right: 0;
-}
-
-#slider:hover #previous,
-#slider:hover #next {
-    opacity: 1;
-}
-
-#break,
-#play {
-    cursor: pointer;
-    font-size: 30px;
-    color: #004C6C;
-}
-
-.timer {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-/* FIN SECTION SLIDER */
-
-/* MARKETING CONTENT
-  -------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.marketing h2 {
-  font-weight: 400;
-}
-
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
-/* rtl:end:ignore */
-
-
-/* Featurettes
-  ------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0;
-  /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  /* rtl:remove */
-  letter-spacing: -.05rem;
-}
-
 /* ProjetView */
 
 img {
@@ -142,6 +56,10 @@ h1 {
 
 /* footer */
 
+.textFooter {
+  color: red;
+}
+
 /* CONTACT */
 
 /* ADMIN */
@@ -150,6 +68,7 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
+
 
 
 

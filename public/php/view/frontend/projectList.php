@@ -1,19 +1,14 @@
 <?php $title = 'Portfolio'; ?>
 
- <!-- SECTION SLIDER -->
- <div id="sectionSlider">
-    <div id="slider">
-      <img id="imgSlider" alt="slider" src="assets/img/velo.png" />
-    </div>
-    <div class="timer">
-      <div id="previous"><i class="far fa-arrow-alt-circle-left"></i> </div>
-      <div id="play"><i class="far  fa-play-circle"></i></div>
-      <div id="break"><i class="far fa-pause-circle"></i></div>
-      <div id="next"><i class="far fa-arrow-alt-circle-right"></i></div>
-    </div>
-  </div>
-  <!-- FIN SECTION SLIDER -->
+<!-- SECTION SLIDER -->
 
+<div id="slider">
+  <img id="imgSlider" alt="slider" src="assets/img/velo.png" />
+</div>
+
+<!-- FIN SECTION SLIDER -->
+
+<div class="container">
 
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
@@ -60,6 +55,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <script src="public/js/Slider.js"></script>

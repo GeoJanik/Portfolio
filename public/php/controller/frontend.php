@@ -117,3 +117,7 @@ function form($firstName, $secondName, $email, $objectForm, $comment)
     echo "<script>alert(\"Votre demande est enregistré\")</script>";
     header('Location: index.php');
 }
+
+function infosView(){
+    require('./public/php/view/frontend/infos.php');
+}

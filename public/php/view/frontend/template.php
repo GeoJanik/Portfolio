@@ -77,9 +77,10 @@
     </nav>
   </header>
 
-  <div class="container">
-    <?= $content ?>
-  </div>
+
+
+  <?= $content ?>
+
 
   <div id="scroll_to_top">
     <a href="#top"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
@@ -87,15 +88,16 @@
 
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">Place sticky footer content here.</span>
+      <span class="textFooter"><a href="index.php?action=infos">Qui suis-je ?</a></span>
       <?php
       if (isset($_SESSION['id']) and isset($_SESSION['pseudo'])) {
-        echo 'Vous êtes connecté à votre compte: ' . $_SESSION['pseudo'];
+        echo '<span class="textFooter">Vous êtes connécté à votre compte ' . $_SESSION['pseudo'] . '</span>';
       } else {
-        echo 'Aucun utilisateur connecté';
+        echo   '<span class="textFooter">Aucun utilisateur de connécté</span>';
       }
       ?>
     </div>
+
   </footer>
 
 </body>
