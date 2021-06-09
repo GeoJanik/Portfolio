@@ -3,7 +3,7 @@ class Slider {
         this.interval;
         this.index = 0;
         this.img = document.getElementById("imgSlider");
-        this.tab = new Array("assets/img/velo.png", "assets/img/velo1.png", "assets/img/velo2.png");
+        this.tab = new Array("assets/img/slider1.jpg", "assets/img/slider2.jpg", "assets/img/slider3.jpg");
         this.img.src = this.tab[0];
         this.init();
     }

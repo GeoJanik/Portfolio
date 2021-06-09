@@ -1,20 +1,38 @@
 body {
-  font-family: 'Mate SC', serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #23243C;
   margin-top: 100px;
 	min-height: 100vh;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
-  background-color: #9F5540;
+  background-color: #F5EEEA;
 }
 
 /* TEMPLATE */
 
+a:hover {
+  border-top: solid #00b09e; 
+}
+ 
+
+#portrait{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #F5EEEA;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#janik {
+  font-size: 28px;
+}
+
 .fas {
-  color: #137C8B;
+  color: #00b09e;
 }
 
 .navbar {
-  font-size: 23px;
+  font-size: 18px;
 }
 
 #scroll_to_top {
@@ -36,6 +54,10 @@ margin-top: 60px;
 
 }
 
+#navbarNav {
+  flex-direction: row-reverse;
+}
+
 #img {
   height: 420px;
   margin-top: 117px;
@@ -45,6 +67,18 @@ margin-top: 60px;
   margin-bottom: 30px;
   
 }
+
+/* PROJECT LIST */
+
+.btn-primary {
+  background-color: #00b09e;
+  border-color: #23243c;
+}
+
+.btn-primary:hover {
+  background-color: #4B516B;
+}
+
 /* ProjetView */
 
 img {
@@ -109,13 +143,7 @@ h1 {
   justify-content: space-around;
 }
 
-  #portrait{
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
+ 
 /* QUI SUIS-JE*/
   #weatherIcon {
     width: 100px;
@@ -132,7 +160,7 @@ h1 {
 
 
   @media all and (max-width: 375px) {
-    .navbar-brand{
+    .navbar-brand, #janik{
       font-size: 14px;
     }
     

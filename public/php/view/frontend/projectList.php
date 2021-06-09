@@ -3,7 +3,7 @@
 <!-- SECTION SLIDER -->
 
 <div id="slider">
-  <img id="imgSlider" alt="slider" src="assets/img/velo.png" />
+  <img id="imgSlider" alt="slider" src="assets/img/slider1.jpg" />
 </div>
 
 <!-- FIN SECTION SLIDER -->
