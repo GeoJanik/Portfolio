@@ -4,13 +4,20 @@
 
 
 
-    <h1 id="titleFormation">MES FORMATION</h1>
-   <div>
-   <img id="imgOc" src="assets/img/oc.jpg" alt="OpenClassrooms">
-   </div>
-<div>
-    <p>Formation Developpeur Web junior (1 ans)</p>
+    <h1 id="titleFormation">Mes formations</h1>
+    <div class="separateur">
+        <div class="trait"></div>
+    </div>
 </div>
 
+<div id="formation">
+    <div id="oc">
 
+    </div>
+    <div id="bac">
+
+    </div>
+    <div id="bep">
+
+    </div>
 </div>

@@ -45,10 +45,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.php?action=skill">Compétence</a>
+              <a class="nav-link" href="index.php?action=skill">Compétences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?action=formation">Formation</a>
+              <a class="nav-link" href="index.php?action=formation">Formations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?action=contact">Contact</a>

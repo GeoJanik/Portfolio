@@ -1,21 +1,22 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   color: #23243C;
   margin-top: 100px;
-	min-height: 100vh;
-	display: grid;
-	grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   background-color: #F5EEEA;
 }
 
 /* TEMPLATE */
 
-a:hover {
-  border-top: solid #00b09e; 
+header a:hover {
+  border-top: solid #00b09e;
 }
- 
 
-#portrait{
+
+#portrait {
   width: 100px;
   height: 100px;
   border: 1px solid #F5EEEA;
@@ -48,9 +49,9 @@ a:hover {
 }
 
 .footer {
-height: 50px;
-background-color: black;
-margin-top: 60px;
+  height: 50px;
+  background-color: black;
+  margin-top: 60px;
 
 }
 
@@ -65,18 +66,19 @@ margin-top: 60px;
 
 #slider {
   margin-bottom: 30px;
-  
+
 }
 
 /* PROJECT LIST */
 
 .btn-primary {
-  background-color: #00b09e;
-  border-color: #23243c;
+  background-color: #4B516B;
+  border-color: #4B516B;
 }
 
 .btn-primary:hover {
-  background-color: #4B516B;
+  background-color: #00b09e;
+  border-color: #00b09e;
 }
 
 /* ProjetView */
@@ -94,10 +96,78 @@ h1 {
 }
 
 /* SKILL */
+.separateur {
+  width: 115px;
+  margin: auto;
+  margin-bottom: 30px;
+}
 
-#titleSkill {
+.trait {
+  width: 115px;
+  height: 1px;
+  background-color: #9D9C9C;
+  opacity: 0.20;
+}
+
+
+
+.knowledge {
+  width: 357px;
+  height: 400px;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 3px 3px #9D9C9C;
+}
+
+.knowledge:hover {
+  box-shadow: 3px 3px #00b09e;
+}
+
+.knowledge ul {
+  list-style: none;
+  margin-left:0;
+padding-left:0;
+}
+
+
+.bg-success {
+  background-color: #23243C !important;
+}
+
+.bg-info {
+  background-color: #4B516B !important;
+}
+
+.bg-warning {
+  background-color: #00b09e !important;
+}
+
+.bg-danger {
+  background-color: #9D8F9C !important;
+}
+
+
+.titleSkill {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+#containerKnowledge {
+  margin-bottom: 43px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.knowledge h2 {
+  font-size: 16px;
   text-align: center;
 }
+
 .pProgress {
   text-align: center;
   margin-top: 30px;
@@ -107,33 +177,53 @@ h1 {
   text-align: center;
 }
 
-#logoLanguage {
+#skill img {
   text-align: center;
+  width: 45px;
+  margin: 16px;
 }
 
-#logoLanguage > img{
-  width: 45px;
-  
+#skill {
+  text-align: center;
+
 }
+
+
+
 
 /* footer */
 
 .textFooter {
   color: #9F5540;
 }
+
 /* FORMATION */
-   #titleFormation {
-     font-size: 50px;
-   }
-
-
-.containerFormation {
+#titleFormation {
   text-align: center;
+  font-size: 18px;
 }
 
-#imgOc {
-  width: 400px;
+#oc, #bac, #bep {
+  width: 100%;
+  height: 140px;
 }
+
+#oc {
+  background-color: #23243C;
+}
+
+#bac {
+  background-color: #4B516B;
+}
+
+#bep {
+  background-color: #9D8F9C;
+}
+
+
+
+
+
 /* CONTACT */
 
 /* ADMIN */
@@ -143,25 +233,27 @@ h1 {
   justify-content: space-around;
 }
 
- 
+
 /* QUI SUIS-JE*/
-  #weatherIcon {
-    width: 100px;
-    height: 100px;
+#weatherIcon {
+  width: 100px;
+  height: 100px;
+}
+
+#titleInfos {
+  margin-top: 60px;
+}
+
+#weather {
+  display: flex;
+}
+
+
+@media all and (max-width: 375px) {
+
+  bar-brand,
+  #janik {
+    font-size: 14px;
   }
 
-  #titleInfos{
-    margin-top: 60px;
-  }
-
-  #weather {
-    display: flex;
-  }
-
-
-  @media all and (max-width: 375px) {
-    .navbar-brand, #janik{
-      font-size: 14px;
-    }
-    
 }
