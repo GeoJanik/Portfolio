@@ -1,32 +1,32 @@
 <div class="container">
 
-    <h2>HEllo world</h2>
-    <h2>HEllo world</h2>
+    <h1 id="titleInfos">QUI SUIS-JE ?!!</h1>
 
 
-    <h2>TEEEEEST</h2>
-    <p>Pour débuter chez nous, je souhaite que tu t’occupes de la refonte de notre site, qui n’a pas été mis à jour
-        depuis
-        plusieurs mois. <br>
-        <br>
-        Voici quelques informations dont tu auras besoin pour te lancer : <br>
-        <br>
-        le site doit tenir sur une page avec un menu qui reste visible, en haut de la page, même lorsque l'on se déplace
-        dans la page ;
-        les différentes sections attendues sont :
-        un premier écran d'accueil de bienvenue, très visuel :
-        la liste des services offerts par l'agence ;
-        des exemples de projets déjà réalisés :
-        une carte avec un formulaire de contact (on ne vous demande pas de faire marcher le formulaire, juste de
-        l'afficher).
-        Le site devra être réalisé en HTML et CSS (sans framework tel que Bootstrap). <br>
-        <br>
-        Par ailleurs, j’aimerais également que tu rédiges le texte de présentation de WebAgency. <br>
-        <br>
+    <p>bi praefectum, vitamque suam venenis petitam adseverantes
+        inpetrarunt ut hi, quos suspectati sunt, ilico rapti conpingerentur in vincula, organarius Sericus et Asbolius
+        palaestrita et aruspex Campensis.</p>
+    <p>Principium autem unde latius se funditabat, emersit ex negotio tali. Chilo ex vicario et coniux eius Maxima
+        nomine, questi apud Olybrium ea tempestate urbi praefectum, vitamque suam venenis petitam adseverantes
+        inpetrarunt ut hi, quos suspectati sunt, ilico rapti conpingerentur in vincula, organarius Sericus et Asbolius
+        palaestrita et aruspex Campensis.
 
-
-        <div id="weatherMap"></div>
-
+        Haec ubi latius fama vulgasset missaeque relationes adsiduae Gallum Caesarem permovissent, quoniam magister
+        equitum longius ea tempestate distinebatur, iussus com
     </p>
+
+    <H2>LA METEO DE CHEZ MOI (API DEMANDE POUR REMPLIR CACHIER DES CHARGES DE MON DERNIER PROJET, classe hein ?)</H2>
+    <div id="weather">
+        <div>
+            <div id="location"></div>
+            <h2 id="temp"></h2>
+            <div id="description"></div>
+        </div>
+        <div>
+            <img id="weatherIcon">
+        </div>
+
+    </div>
+
 </div>
 <script src="public/js/Weather.js"></script>

@@ -26,4 +26,4 @@
   }
   ?>
 
-  <div class="container">
+</div>

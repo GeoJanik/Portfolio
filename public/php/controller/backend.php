@@ -3,8 +3,6 @@
 use portfolio\model\CommentManager;
 use portfolio\model\UserForm;
 
-
-
 // View de l'admin
 function showAdmin()
 {
