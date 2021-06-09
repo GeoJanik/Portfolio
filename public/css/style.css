@@ -50,9 +50,7 @@ header a:hover {
 
 .footer {
   height: 50px;
-  background-color: black;
-  margin-top: 60px;
-
+  background-color: #4B516B;
 }
 
 #navbarNav {
@@ -70,6 +68,10 @@ header a:hover {
 }
 
 /* PROJECT LIST */
+
+.row {
+  margin-bottom: 30px;
+}
 
 .btn-primary {
   background-color: #4B516B;
@@ -109,8 +111,6 @@ h1 {
   opacity: 0.20;
 }
 
-
-
 .knowledge {
   width: 357px;
   height: 400px;
@@ -130,7 +130,6 @@ h1 {
   margin-left:0;
 padding-left:0;
 }
-
 
 .bg-success {
   background-color: #23243C !important;
@@ -185,16 +184,14 @@ padding-left:0;
 
 #skill {
   text-align: center;
+  margin-bottom: 30px;
 
 }
-
-
-
 
 /* footer */
 
 .textFooter {
-  color: #9F5540;
+  color: #F5EEEA;
 }
 
 /* FORMATION */
@@ -205,7 +202,7 @@ padding-left:0;
 
 #oc, #bac, #bep {
   width: 100%;
-  height: 140px;
+  height: 160px;
 }
 
 #oc {
@@ -220,11 +217,55 @@ padding-left:0;
   background-color: #9D8F9C;
 }
 
+#ocImg  {
+  width: 100px;
+  margin-bottom: 15px;
+  margin-top: 8px;
+}
 
+#igsImg {
+  width: 130px;
+  margin-top: 10px;
+}
 
+#bepImg {
+  width: 190px;
+  margin-top: 10px;
+}
 
+#oc, #bac, #bep {
+  color: white;
+  text-align: center;
+}
+/* VOIR REPETITION CODEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EN DESSOUS LA */
+#oc p {
+  margin: 0;
+}
+
+#bac p {
+  margin: 0;
+}
+
+#bep p {
+  margin: 0;
+}
 
 /* CONTACT */
+
+#titleContact {
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn{
+ background-color: #00b09e;
+ margin-top: 20px;
+
+}
+
+.btn:hover {
+  background-color: #4B516B;
+}
 
 /* ADMIN */
 
@@ -242,6 +283,28 @@ padding-left:0;
 
 #titleInfos {
   margin-top: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#titleInfosH2 {
+  font-size: 18px;
+  text-align: center;
+}
+#logoInteret > .logo {
+  width: 75px;
+}
+
+#logoInteret {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 37px;
+}
+
+#titleWeather {
+  font-size: 18px;
+  text-align: center;
 }
 
 #weather {

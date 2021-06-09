@@ -3,8 +3,10 @@
     <?php $title = 'Projet P5'; ?>
 
 
-    <h1>FORMULAIRE DE CONTACT</h1>
-    <p>VOIR ICONE AVEC MARINE ICI</p>
+    <h1 id="titleContact">Formulaire de contact</h1>
+    <div class="separateur">
+        <div class="trait"></div>
+    </div>
 
 
     <form id="contact-form" method="post" action="index.php?action=form" role="form">

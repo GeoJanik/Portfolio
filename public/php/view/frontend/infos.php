@@ -1,21 +1,34 @@
 <div class="container">
 
-    <h1 id="titleInfos">QUI SUIS-JE ?!!</h1>
+    <h1 id="titleInfos">Qui suis-je ?</h1>
+    <div class="separateur">
+        <div class="trait"></div>
+    </div>
 
 
-    <p>bi praefectum, vitamque suam venenis petitam adseverantes
-        inpetrarunt ut hi, quos suspectati sunt, ilico rapti conpingerentur in vincula, organarius Sericus et Asbolius
-        palaestrita et aruspex Campensis.</p>
-    <p>Principium autem unde latius se funditabat, emersit ex negotio tali. Chilo ex vicario et coniux eius Maxima
-        nomine, questi apud Olybrium ea tempestate urbi praefectum, vitamque suam venenis petitam adseverantes
-        inpetrarunt ut hi, quos suspectati sunt, ilico rapti conpingerentur in vincula, organarius Sericus et Asbolius
-        palaestrita et aruspex Campensis.
-
-        Haec ubi latius fama vulgasset missaeque relationes adsiduae Gallum Caesarem permovissent, quoniam magister
-        equitum longius ea tempestate distinebatur, iussus com
+    <p>Vendeur, agent immobilier, clerc d'huissier, j'ai eu du mal à me décider ...
+        Jusqu'à trouver mon idéal professionnel, je me suis landé dans la formation developpeur Web
+        Avec dorénavant de bonne base, je sais que ne m'ennuirai jamais puisque l'on peut apprendre sans cesse.
+        De nature optimiste, j'aime chercher pendant des heures des solutions.
     </p>
 
-    <H2>LA METEO DE CHEZ MOI (API DEMANDE POUR REMPLIR CACHIER DES CHARGES DE MON DERNIER PROJET, classe hein ?)</H2>
+    <h2 id="titleInfosH2">Mes intèrêts</h2>
+    <div class="separateur">
+        <div class="trait"></div>
+    </div>
+
+    <div id="logoInteret">
+    <img src="assets/img/xbox.png" class="logo" alt="xbox">
+    <img src="assets/img/musique.png" class="logo" alt="musique">
+    <img src="assets/img/carotte.png" class="logo" alt="carotte">
+    </div>
+
+    <h2 id="titleWeather">Et pour finir en beauté</h2>
+    <div class="separateur">
+        <div class="trait"></div>
+    </div>
+
+
     <div id="weather">
         <div>
             <div id="location"></div>

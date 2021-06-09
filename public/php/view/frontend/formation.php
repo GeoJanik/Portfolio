@@ -1,8 +1,4 @@
-<div class="containerFormation">
-
-    <?php $title = 'Projet P5'; ?>
-
-
+<?php $title = 'Projet P5'; ?>
 
     <h1 id="titleFormation">Mes formations</h1>
     <div class="separateur">
@@ -12,12 +8,21 @@
 
 <div id="formation">
     <div id="oc">
-
+    <img id="ocImg" alt="openclassrooms" src="assets/img/oc.png" />
+    <p>Developpeur Web junior</p>
+    <p>Decembre 2019 - Juin 2021</p>
+    <p>A distance</p>
     </div>
     <div id="bac">
-
+    <img id="igsImg" alt="bac" src="assets/img/igs.png" />
+    <p>BAC Vente</p>
+    <p>2012</p>
+    <P>Ecole IGS, Paris 10 ème</P>
     </div>
     <div id="bep">
-
+    <img id="bepImg" alt="bep" src="assets/img/bep.png" />
+    <p>BEP Vente</p>
+    <p>2010</p>
+    <p>Lycée Charles Baudelaire, Meaux</p>
     </div>
 </div>
