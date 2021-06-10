@@ -3,7 +3,7 @@
     <?php $title = 'Projet P5'; ?>
 
 
-    <h1 id="titleContact">Formulaire de contact</h1>
+    <h1>Formulaire de contact</h1>
     <div class="separateur">
         <div class="trait"></div>
     </div>

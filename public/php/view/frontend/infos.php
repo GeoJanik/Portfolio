@@ -1,6 +1,6 @@
 <div class="container">
 
-    <h1 id="titleInfos">Qui suis-je ?</h1>
+    <h1>Qui suis-je ?</h1>
     <div class="separateur">
         <div class="trait"></div>
     </div>
@@ -24,13 +24,14 @@
     </div>
 
     <h2 id="titleWeather">Et pour finir en beauté</h2>
+    <p>(Petite API JavaScript pour affiché la météo, BOOM !) </p>
     <div class="separateur">
         <div class="trait"></div>
     </div>
 
 
     <div id="weather">
-        <div>
+        <div id='dataWeather'>
             <div id="location"></div>
             <h2 id="temp"></h2>
             <div id="description"></div>
