@@ -3,7 +3,6 @@
   <?php $title = 'Projet P5'; ?>
   <h1>ICI POUR GERER LES FORMULAIRE DE CONTACT</h1>
 
-
   <?php
   while ($selectForms = $valueForm->fetch()) {
   ?>

@@ -2,7 +2,6 @@
 
     <?php $title = 'Projet P5'; ?>
 
-
     <H1>Bienvenue dans la partie cachée de l'administration</H1> <br>
 
     <div class="row espacement cardAdminView">

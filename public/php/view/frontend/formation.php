@@ -6,10 +6,7 @@
                 <div class="trait"></div>
             </div>
 
-
-
             <div id="formation">
-
                 <div id="listData">
                     <div id="oc">
                         <img id="ocImg" alt="openclassrooms" src="assets/img/oc.png" />

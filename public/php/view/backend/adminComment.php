@@ -4,7 +4,7 @@
 
     <?php $title = 'Projet P5'; ?>
 
-    
+
     <?php
     while ($reportComment = $reportedComment->fetch()) {
     ?>

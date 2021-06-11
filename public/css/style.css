@@ -47,8 +47,6 @@ h2 {
   margin-top: 30px;
 }
 
-
-
 #portrait {
   width: 100px;
   height: 100px;
@@ -97,8 +95,6 @@ h2 {
   margin-top: 117px;
 }
 
-
-
 /* PROJECT LIST */
 
 .row {
@@ -126,7 +122,6 @@ img {
 }
 
 /* SKILL */
-
 
 .separateur {
   width: 115px;
@@ -177,15 +172,11 @@ img {
   background-color: #9D8F9C !important;
 }
 
-
-
-
 #containerKnowledge {
   margin-bottom: 43px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-
 }
 
 .knowledge h2 {
@@ -218,17 +209,14 @@ img {
 
 .textFooter {
   color: #F5EEEA;
-
 }
 
 /* FORMATION */
-
 
 #oc,
 #bac,
 #bep {
   width: 100%;
-
 }
 
 #oc {
@@ -266,7 +254,6 @@ img {
   text-align: center;
 }
 
-/* VOIR REPETITION CODEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EN DESSOUS LA */
 #oc p {
   margin: 0;
 }
@@ -289,7 +276,6 @@ img {
   background-color: #4B516B;
   border-color: #4B516B;
   margin-bottom: 20px;
-
 }
 
 .btn-success:hover {
@@ -410,6 +396,25 @@ img {
   margin-bottom: 37px;
 }
 
+@media all and (max-width: 1199px) {
+  .knowledge {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 580px) {
+  #slider {
+    display: none;
+  }
+}
+
+@media all and (max-width: 425px) {
+  #scrollToTop {
+    height: 37px;
+    right: 37px;
+  }
+}
+
 @media all and (max-width: 375px) {
 
   bar-brand,
@@ -417,39 +422,8 @@ img {
     font-size: 14px;
   }
 
-}
-
-@media all and (max-width: 580px) {
-
-  #slider {
-    display: none;
-  }
-
-}
-
-
-
-@media all and (max-width: 1199px) {
-
-  .knowledge {
-    margin-bottom: 20px;
-  }
-
-}
-
-@media all and (max-width: 375px) {
-
   #weather {
     margin-bottom: 20px;
-  }
-
-}
-
-@media all and (max-width: 425px) {
-
-  #scrollToTop {
-    height: 37px;
-    right: 37px;
   }
 
 }

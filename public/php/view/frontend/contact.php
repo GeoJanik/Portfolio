@@ -10,11 +10,8 @@
 
 
     <form id="contact-form" method="post" action="index.php?action=form" role="form">
-
         <div class="messages"></div>
-
         <div class="controls">
-
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
