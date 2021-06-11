@@ -5,7 +5,7 @@
     <H1>PROJET IREKI</H1>
 
     <div class="divImg">
-        <img src="assets/img/P2.jpg" alt="P1">
+        <img src="assets/img/P2G.jpg" alt="P1">
     </div>
 
     <h2>Missions ! ireki</h2>
@@ -98,4 +98,7 @@
         <li>Le support de présentation est très bien réalisé et convaincant</li>
     </ul>
     <br>
+    <h3>Voir mon site</h3>
+    <a href="https://ireki.geojanik.com/">Cliquer sur ici</a>
+    <br><br>
 </div>

@@ -332,6 +332,8 @@ img {
 .row.espacement {
   display: flex;
   justify-content: space-around;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .cardHeaderContact {
@@ -439,6 +441,15 @@ img {
 
   #weather {
     margin-bottom: 20px;
+  }
+
+}
+
+@media all and (max-width: 425px) {
+
+  #scrollToTop {
+    height: 37px;
+    right: 37px;
   }
 
 }

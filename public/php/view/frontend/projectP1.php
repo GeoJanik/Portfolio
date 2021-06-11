@@ -4,7 +4,7 @@
     <H1>PROJET WEBAGENCY</H1>
 
     <div class="divImg">
-        <img src="assets/img/P1.jpg" alt="P1">
+        <img src="assets/img/P1G.jpg" alt="P1">
     </div>
 
     <h2>Missions !</h2>
@@ -64,4 +64,8 @@
         <br>
         Respecter plus précisément la maquette
     </p>
+
+    <h3>Voir mon site</h3>
+    <a href="http://geojanik.fr/">Cliquer sur ici</a>
+     <br><br>
 </div>

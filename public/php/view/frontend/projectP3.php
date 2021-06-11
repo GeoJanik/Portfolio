@@ -4,7 +4,7 @@
     <H1>PROJET VELO</H1>
 
     <div class="divImg">
-        <img src="assets/img/P3.jpg" alt="P1">
+        <img src="assets/img/P3G.jpg" alt="P1">
     </div>
 
     <h2>Missions ! velo</h2>
@@ -65,4 +65,7 @@
         Respecter plus précisément la maquette
 
     </p>
+    <h3>Voir mon site</h3>
+    <a href="http://geojanik.com/">Cliquer sur ici</a>
+    <br><br>
 </div>

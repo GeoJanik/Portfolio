@@ -5,7 +5,7 @@
 
     <H1>Bienvenue dans la partie cachée de l'administration</H1> <br>
 
-    <div class="row espacement">
+    <div class="row espacement cardAdminView">
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
                 <div class="col-md-4 iconeAdminView">

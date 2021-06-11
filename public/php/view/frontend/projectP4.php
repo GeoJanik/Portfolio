@@ -5,7 +5,7 @@
     <H1>PROJET BLOG</H1>
 
     <div class="divImg">
-        <img src="assets/img/P4.jpg" alt="P4">
+        <img src="assets/img/P4G.jpg" alt="P4">
     </div>
 
     <h2>Missions ! blog</h2>
@@ -66,4 +66,8 @@
         Respecter plus précisément la maquette
 
     </p>
+
+    <h3>Voir mon site</h3>
+    <a href="http://blogp4.geojanik.com/">Cliquer sur ici</a>
+    <br><br>
 </div>
