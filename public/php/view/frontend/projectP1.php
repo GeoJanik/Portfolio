@@ -28,9 +28,9 @@
         <br>
 
 
-        <h2>COMPTE RENDU DU JURY</h2>
+        <h2>COMPTE RENDU DU JURY</h2><br>
 
-        Projet validé <br>
+        Projet validé :<br>
         <br>
         1. Évaluation globale du travail réalisé par l’étudiant :
         <br>

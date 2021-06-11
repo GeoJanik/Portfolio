@@ -5,12 +5,13 @@
         <div class="trait"></div>
     </div>
 
-
+<div id="presentation">
     <p>Vendeur, agent immobilier, clerc d'huissier, j'ai eu du mal à me décider ...
         Jusqu'à trouver mon idéal professionnel, je me suis landé dans la formation developpeur Web
         Avec dorénavant de bonne base, je sais que ne m'ennuirai jamais puisque l'on peut apprendre sans cesse.
         De nature optimiste, j'aime chercher pendant des heures des solutions.
     </p>
+    </div>
 
     <h2 id="titleInfosH2">Mes intèrêts</h2>
     <div class="separateur">
@@ -43,4 +44,5 @@
     </div>
 
 </div>
+
 <script src="public/js/Weather.js"></script>

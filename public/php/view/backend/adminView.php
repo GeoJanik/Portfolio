@@ -5,7 +5,6 @@
 
     <H1>Bienvenu dans la partie caché de ce site ... L'ADMINISTRATION !!!!!!</H1> <br>
 
-    <p>IMAGE MARINE</p>
     <div class="row espacement">
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">

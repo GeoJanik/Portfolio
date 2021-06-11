@@ -60,7 +60,7 @@ function addComment($idProject, $author, $comment)
     if ($affectedLines === false) {
         throw new Exception('Impossible d\'ajouter le commentaire !');
     } else {
-        header('./public/php/view/frontend/projectP1.php');
+        echo "<script>alert(\"Commentaire ajouté\")</script>";
     }
 }
 
@@ -114,8 +114,8 @@ function form($firstName, $secondName, $email, $objectForm, $comment)
 {
     $userForm = new UserForm();
     $form = $userForm->insertForm($firstName, $secondName, $email, $objectForm, $comment);
-    echo "<script>alert(\"Votre demande est enregistré\")</script>";
-    header('Location: index.php');
+    echo "<script>alert(\"Votre formulaire à été envoyé\")</script>";
+    projectList();
 }
 
 function infosView(){

@@ -29,7 +29,7 @@
   ?>
 
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <img id="portrait" href="index.php?action=projectList" src="assets/img/portrait.jpg" alt="portrait">
 

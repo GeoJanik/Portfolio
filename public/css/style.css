@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  margin-top: 116px;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -18,6 +17,7 @@ header a:hover {
 .btn-danger {
   background-color: #dc3545;
   border: #dc3545;
+  margin-bottom: 20px;
 }
 
 .btn-danger:hover {
@@ -44,6 +44,7 @@ h1,
 h2 {
   text-align: center;
   font-size: 18px;
+  margin-top: 30px;
 }
 
 
@@ -66,6 +67,7 @@ h2 {
 
 .navbar {
   font-size: 18px;
+  position: relative;
 }
 
 #scrollToTop {
@@ -95,10 +97,7 @@ h2 {
   margin-top: 117px;
 }
 
-#slider {
-  margin-bottom: 30px;
 
-}
 
 /* PROJECT LIST */
 
@@ -127,10 +126,12 @@ img {
 }
 
 /* SKILL */
+
+
 .separateur {
   width: 115px;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .trait {
@@ -280,11 +281,34 @@ img {
 
 /* CONTACT */
 
+.btn-send {
+  margin-top: 20px;
+}
 
 .btn-success {
-  background-color: #00b09e;
+  background-color: #4B516B;
+  border-color: #4B516B;
   margin-bottom: 20px;
 
+}
+
+.btn-success:hover {
+  background-color: #00b09e;
+  border-color: #00b09e;
+}
+
+.cardContact {
+  margin-bottom: 30px;
+}
+
+.btnDeleteContact {
+  background-color: #4B516B;
+  border: #4B516B;
+}
+
+.btnDeleteContact:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
 }
 
 /* ADMIN */
@@ -295,18 +319,47 @@ img {
 
 .btn-outline-warning {
   color: white;
-  background-color: #00b09e;
-  border-color: #00b09e;
+  background-color: #4B516B;
+  border-color: #4B516B;
 }
 
 .btn-outline-warning:hover {
-  border-color: #4B516B;
+  background-color: #00b09e;
+  border-color: #00b09e;
   color: white;
 }
 
 .row.espacement {
   display: flex;
   justify-content: space-around;
+}
+
+.cardHeaderContact {
+  background-color: #4B516B;
+  color: wheat;
+}
+
+.btnDangerComment {
+  background-color: #4B516B;
+  border-color: #4B516B;
+}
+
+.btnDangerComment:hover {
+  border-color: #dc3545;
+  background-color: #dc3545;
+}
+
+
+.containerAdminComment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardCommentAdmin {
+  margin: 5px;
+  padding: 35px;
+  flex-wrap: wrap;
 }
 
 
@@ -340,6 +393,10 @@ img {
   text-align: center;
 }
 
+#presentation {
+  text-align: center;
+}
+
 #logoInteret {
   display: flex;
   justify-content: space-evenly;
@@ -352,6 +409,32 @@ img {
   bar-brand,
   #janik {
     font-size: 14px;
+  }
+
+}
+
+@media all and (max-width: 580px) {
+
+  #slider {
+    display: none;
+  }
+
+}
+
+
+
+@media all and (max-width: 1199px) {
+
+  .knowledge {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media all and (max-width: 375px) {
+
+  #weather {
+    margin-bottom: 20px;
   }
 
 }
