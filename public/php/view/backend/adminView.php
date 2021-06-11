@@ -3,13 +3,13 @@
     <?php $title = 'Projet P5'; ?>
 
 
-    <H1>Bienvenu dans la partie caché de ce site ... L'ADMINISTRATION !!!!!!</H1> <br>
+    <H1>Bienvenue dans la partie cachée de l'administration</H1> <br>
 
     <div class="row espacement">
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="..." alt="...">
+                <div class="col-md-4 iconeAdminView">
+                <i class="fas fa-comment-slash fa-10x"></i> 
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -22,8 +22,8 @@
         </div>
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="..." alt="...">
+                <div class="col-md-4 iconeAdminView">
+                <i class="fas fa-align-center fa-10x"></i>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">

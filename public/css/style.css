@@ -362,6 +362,10 @@ img {
   flex-wrap: wrap;
 }
 
+.iconeAdminView {
+  margin-top: 30px;
+  text-align: center;
+}
 
 /* QUI SUIS-JE*/
 #weatherIcon {
