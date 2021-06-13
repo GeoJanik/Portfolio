@@ -1,7 +1,7 @@
 <div class="container">
 
   <?php $title = 'Projet P5'; ?>
-  <h1>ICI POUR GERER LES FORMULAIRE DE CONTACT</h1>
+  <h1>Ici pour gérer les formulaires de contact</h1>
 
   <?php
   while ($selectForms = $valueForm->fetch()) {
@@ -9,7 +9,7 @@
     <div class="card text-center cardContact">
       <div class="card-header cardHeaderContact">
         <p>Destinataire: <?= htmlspecialchars($selectForms['firstName']) ?> <?= htmlspecialchars($selectForms['secondName']) ?></p>
-        <p>Obejet de la demande: <?= htmlspecialchars($selectForms['objectForm']) ?></p>
+        <p>Objet de la demande: <?= htmlspecialchars($selectForms['objectForm']) ?></p>
 
       </div>
       <div class="card-body">

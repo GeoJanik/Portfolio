@@ -8,7 +8,7 @@ function showAdmin()
 {
     require("./public/php/view/backend/adminView.php");
 }
-// View de l'admin des commentaire
+// View de l'admin des commentaires
 function showAdminComment()
 {
     $commentManager = new CommentManager();
@@ -30,7 +30,7 @@ function deleteComment($commentId)
     $commentManager = new CommentManager();
     $commentManager->deleteValues($commentId);
     showAdminComment();
-    echo "<script>alert(\"Commentaire supprimer\")</script>";
+    echo "<script>alert(\"Commentaire supprimé\")</script>";
 }
 
 function deleteForm($id)
@@ -38,5 +38,5 @@ function deleteForm($id)
     $userForm = new UserForm();
     $userForm->deleteForm($id);
     showAdminContact();
-    echo "<script>alert(\"Formulaire supprimer\")</script>";
+    echo "<script>alert(\"Formulaire supprimé\")</script>";
 }

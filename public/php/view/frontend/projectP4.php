@@ -8,7 +8,7 @@
         <img src="assets/img/P4G.jpg" alt="P4">
     </div>
 
-    <h2>Missions ! blog</h2>
+    <h2>Missions ! Blog</h2>
     <p>Pour débuter chez nous, je souhaite que tu t’occupes de la refonte de notre site, qui n’a pas été mis à jour
         depuis
         plusieurs mois. <br>

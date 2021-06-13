@@ -64,30 +64,30 @@ function addComment($idProject, $author, $comment)
     }
 }
 
-// Report un commentaire
+// Reporter un commentaire
 function reportComment($commentId, $idProject)
 {
     $report = new CommentManager();
     $reportComment = $report->updateReport($commentId);
     showProject($idProject);
-    echo "<script>alert(\"Commentaire repporté\")</script>";
+    echo "<script>alert(\"Commentaire reporté\")</script>";
 }
 
 // Connexion
 function loginSubmit($pseudo, $pass)
 {
 
-    // Recup de l'utilisateur 
+    // Recupérer un utilisateur 
     $userManager = new UserManager();
     $user = $userManager->login($pseudo);
     $isPassWordCorrect = password_verify($pass, $user['pass']);
 
     // Si on trouve rien dans la bdd
     if (!$user) {
-        echo "<script>alert(\"Nom d'utilisateur incorect\")</script>";
+        echo "<script>alert(\"Nom d'utilisateur incorrect\")</script>";
         showLogin();
     }
-    // Sinon, si un user existe et si le pass est correcte
+    // Sinon, si un user existe et si le pass est correct
     elseif ($isPassWordCorrect) {
         session_start();
         $_SESSION['id'] = $user['id'];
@@ -101,7 +101,7 @@ function loginSubmit($pseudo, $pass)
     }
 }
 
-// Deconnexion
+// Déconnexion
 function logOut()
 {
     $_SESSION = array();
@@ -114,7 +114,7 @@ function form($firstName, $secondName, $email, $objectForm, $comment)
 {
     $userForm = new UserForm();
     $form = $userForm->insertForm($firstName, $secondName, $email, $objectForm, $comment);
-    echo "<script>alert(\"Votre formulaire à été envoyé\")</script>";
+    echo "<script>alert(\"Votre formulaire a été envoyé\")</script>";
     projectList();
 }
 

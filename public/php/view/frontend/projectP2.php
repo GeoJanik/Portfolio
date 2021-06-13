@@ -31,7 +31,7 @@
         <li>
             Les pages doivent être conçues en responsive, de telle sorte à ce que le site s’affiche correctement sur
             toutes
-            les résolutions. La navigation sur mobile et tablettes doit être naturelle et ne doit pas nécessiter de
+            les résolutions. La navigation sur mobile et tablette doit être naturelle et ne doit pas nécessiter de
             zoomer.
         </li>
         <li>

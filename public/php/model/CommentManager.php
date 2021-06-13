@@ -4,7 +4,7 @@ require('./public/php/model/Manager.php');
 
 class CommentManager extends Manager
 {
-     // Posté un commentaire
+     // Poster un commentaire
      public function insertComment($idProject, $author, $comment) {
         $db = $this->dbConnect();
         $comments = $db->prepare('INSERT INTO comments(idProject, author, comment, comment_date, report) VALUES(?, ?, ?, NOW(), false)');
@@ -12,7 +12,7 @@ class CommentManager extends Manager
         return $affectedLines;
     }
 
-     // Recuperer commentaire
+     // Récupérer un commentaire
      public function getComments($idProject) {
         $db = $this->dbConnect();
         $comments = $db->prepare('SELECT id, author, comment, DATE_FORMAT(comment_date, \'%d/%m/%Y à %Hh%imin%ss\') AS comment_date_fr FROM comments WHERE idProject = ? ORDER BY comment_date DESC');
@@ -20,7 +20,7 @@ class CommentManager extends Manager
         return $comments;
     }
 
-    // update des commentaire à reporté
+    // Update des commentaires à reporter
     public function updateReport($commentId) {
         $db = $this->dbConnect();
         $reportValues = $db->prepare('UPDATE comments SET report = 1 WHERE id = ?');
@@ -28,7 +28,7 @@ class CommentManager extends Manager
         return $report;
     }
 
-    // Selectionné commentaire reporté
+    // Sélectionner un commentaire reporté
     public function getReportCommment() {
         $db = $this->dbConnect();
         $reportcomment = $db->prepare('SELECT comment, author, id FROM comments WHERE report = 1');
@@ -37,7 +37,7 @@ class CommentManager extends Manager
 
     }
 
-    // Supprimer commentaire en bdd
+    // Supprimer un commentaire en bdd
     public function deleteValues($commentId) {
         $db = $this->dbConnect();
         $values = $db->prepare('DELETE FROM comments where id = ?');

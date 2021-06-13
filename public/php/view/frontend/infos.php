@@ -6,14 +6,14 @@
     </div>
 
 <div id="presentation">
-    <p>Vendeur, agent immobilier, clerc d'huissier, j'ai eu du mal à me décider ...
-        Jusqu'à trouver mon idéal professionnel, je me suis landé dans la formation developpeur Web
-        Avec dorénavant de bonne base, je sais que ne m'ennuirai jamais puisque l'on peut apprendre sans cesse.
-        De nature optimiste, j'aime chercher pendant des heures des solutions.
+    <p>Vendeur, agent immobilier, clerc d'huissier, mes nombreuses expériences m'ont permis d'affiner mon horizon professionnel 
+        jusqu'à parvenir à un projet qui me correspond vraiment: entreprendre une formation developpeur Web.
+        Dorénavant je dispose d'un socle de connaissances solides, je suis passionné et motivé par ce que je fais, et je ne risque plus de m'ennuyer.
+        De nature optimiste et persévérant, j'aime la résolution de problèmes complexes qui prend du temps, le challenge me stimule et me motive.
     </p>
     </div>
 
-    <h2 id="titleInfosH2">Mes intèrêts</h2>
+    <h2 id="titleInfosH2">Mes intérêts</h2>
     <div class="separateur">
         <div class="trait"></div>
     </div>
@@ -25,7 +25,7 @@
     </div>
 
     <h2 id="titleWeather">Et pour finir en beauté</h2>
-    <p>(Petite API JavaScript pour affiché la météo, BOOM !) </p>
+    <p>(Petite API JavaScript pour afficher la météo, BOOM !) </p>
     <div class="separateur">
         <div class="trait"></div>
     </div>

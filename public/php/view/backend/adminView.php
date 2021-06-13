@@ -12,8 +12,8 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Gerer les commentaires</h5>
-                        <p class="card-text">C'est ici, pour supprimer les villains commentaires</p>
+                        <h5 class="card-title">Gérer les commentaires</h5>
+                        <p class="card-text">C'est ici, pour supprimer les vilains commentaires</p>
                         <a href="index.php?action=adminComment" class="btn btn-outline-warning">GO GO GO !</a>
                     </div>
                 </div>
@@ -26,8 +26,8 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Gerer les formulaires de contact</h5>
-                        <p class="card-text">C'est ici pour gerer les demandes de contact!</p>
+                        <h5 class="card-title">Gérer les formulaires de contact</h5>
+                        <p class="card-text">C'est ici pour gérer les demandes de contact!</p>
                         <a href="index.php?action=adminContact" class="btn btn-outline-warning">GO GO GO !</a>
                     </div>
                 </div>

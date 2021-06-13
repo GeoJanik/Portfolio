@@ -7,7 +7,7 @@
         <img src="assets/img/P3G.jpg" alt="P1">
     </div>
 
-    <h2>Missions ! velo</h2>
+    <h2>Missions ! Vélo</h2>
     <p>Pour débuter chez nous, je souhaite que tu t’occupes de la refonte de notre site, qui n’a pas été mis à jour
         depuis
         plusieurs mois. <br>

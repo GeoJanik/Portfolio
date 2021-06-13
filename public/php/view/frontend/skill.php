@@ -16,11 +16,11 @@
         <li>MVC</li>
         <li>Etablir un cahier des charges</li>
         <li>SQL</li>
-        <li>Methode AGIL</li>
+        <li>Méthode AGILE</li>
         <li>Concevoir une maquette de présentation</li>
-        <li>connaissances en POO (Programmation Orientée Objet) </li>
+        <li>Connaissances en POO (Programmation Orientée Objet) </li>
         <li>Connaissances des CMS Wordpress et Prestashop </li>
-        <li> maîtrise es problématiques d'intégration liées au développement d’un site responsive</li>
+        <li>Maîtrise des problématiques d'intégration liées au développement d’un site responsive</li>
         <li>Notions sur le référencement</li>
         <li>Notion des optimisations SEO</li>
       </ul>
@@ -32,9 +32,10 @@
         <div class="trait"></div>
       </div>
       <ul>
-        <li>Bon tchatcheur</li>
-        <li>Peut vous vendre une maison</li>
-        <li>Annonce positivement les mauvaise nouvelles</li>
+        <li>Richesse des habiletés sociales et maturité intellectuelle acquises à travers les multiples expériences professionnelles  </li>
+        <li>Sens de l'argumentation </li>
+        <li>Evolution en autodidacte, capacités d'autonomie et d'apprentissage importantes  </li>
+        
       </ul>
     </div>
 
@@ -44,9 +45,9 @@
         <div class="trait"></div>
       </div>
       <ul>
-        <li>Capacité d'adaptation (bon copain !)</li>
-        <li>Rigueur (Têtu, mais pas trop ...)</li>
-        <li>Travail d'équipe (Plus on est de fou plus on ris !!!)</li>
+        <li>Capacité d'adaptation, efficacité</li>
+        <li>Rigueur, dynamisme,  </li>
+        <li>Soft skills :ouverture d'esprit, capacité d'écoute, empathie, altruisme, esprit d'équipe...</li>
       </ul>
     </div>
 
