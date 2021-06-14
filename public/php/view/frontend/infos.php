@@ -34,11 +34,11 @@
     <div id="weather">
         <div id='dataWeather'>
             <div id="location"></div>
-            <h2 id="temp"></h2>
+            <div id="degree" ></div>
             <div id="description"></div>
         </div>
-        <div>
-            <img id="weatherIcon">
+        <div id="weatherIcon">
+            <!-- <img src="" alt="weather" id="weatherIcon"> -->
         </div>
 
     </div>

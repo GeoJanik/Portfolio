@@ -46,7 +46,8 @@
                     <div class="form-group">
                         <label for="form_need">Veuillez préciser votre besoin *</label>
                         <select id="form_need" name="objectForm" class="form-control" required="required"
-                            data-error="Veuillez préciser votre besoin.">
+                            data-error="Veuillez préciser votre besoin." >   
+                            <option value="" selected disabled hidden>Sélection ...</option>
                             <option value="Demande de devis">Demande de devis</option>
                             <option value="Demande générale">Demande générale</option>
                             <option value="Demander une facture">Demander une facture</option>
