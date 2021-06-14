@@ -1,11 +1,11 @@
 <?php
+    ob_start();
 
 require('./public/php/controller/frontend.php');
 require('./public/php/controller/backend.php');
 session_start();
 
 try {
-    ob_start();
     if (isset($_GET['action'])) {
         if ($_GET['action'] == 'projectList') {
             projectList();

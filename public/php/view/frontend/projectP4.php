@@ -1,6 +1,6 @@
 <div class="container">
 
-    <?php $title = 'P1'; ?>
+    <?php $title = 'Projet 4'; ?>
 
     <H1>PROJET BLOG</H1>
 

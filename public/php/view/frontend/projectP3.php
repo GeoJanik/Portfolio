@@ -1,5 +1,5 @@
 <div class="container">
-    <?php $title = 'P1'; ?>
+    <?php $title = 'Projet 3' ?>
 
     <H1>PROJET VELO</H1>
 

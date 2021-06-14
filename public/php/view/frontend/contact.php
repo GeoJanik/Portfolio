@@ -9,7 +9,7 @@
     </div>
 
 
-    <form id="contact-form" method="post" action="index.php?action=form" role="form">
+    <form id="contact-form" method="post" action="index.php?action=form">
         <div class="messages"></div>
         <div class="controls">
             <div class="row">
@@ -47,7 +47,6 @@
                         <label for="form_need">Veuillez préciser votre besoin *</label>
                         <select id="form_need" name="objectForm" class="form-control" required="required"
                             data-error="Veuillez préciser votre besoin.">
-                            <option value=""></option>
                             <option value="Demande de devis">Demande de devis</option>
                             <option value="Demande générale">Demande générale</option>
                             <option value="Demander une facture">Demander une facture</option>

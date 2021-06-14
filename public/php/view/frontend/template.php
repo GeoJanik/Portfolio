@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8" />
-  <title><?= $title ?></title>
+  <!-- <title> <?= $title ?> </title> -->
+
+  <title>Portfolio JANIK Geoffrey</title>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -11,11 +13,8 @@
   <link href="public/css/style.css" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/b0fe328ff4.js" crossorigin="anonymous"></script>
-
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body>
@@ -31,8 +30,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <img id="portrait" href="index.php?action=projectList" src="assets/img/portrait.jpg" alt="portrait">
-
+        <img id="portrait" src="assets/img/portrait.jpg" alt="portrait">
         <a class="navbar-brand" href="index.php?action=projectList">Geoffrey <br>
           <div id="janik">JANIK</div>
         </a>
@@ -107,7 +105,9 @@
     ?>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
 
 </html>
+

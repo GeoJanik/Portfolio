@@ -1,7 +1,6 @@
-<?php $title = 'Projet P5'; ?>
 <div>
 
-    <h1>Mes formations<h1>
+        <h1>Mes formations</h1>
             <div class="separateur">
                 <div class="trait"></div>
             </div>
