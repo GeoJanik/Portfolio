@@ -40,7 +40,6 @@
         <div id="weatherIcon">
             <!-- <img src="" alt="weather" id="weatherIcon"> -->
         </div>
-
     </div>
 
 </div>

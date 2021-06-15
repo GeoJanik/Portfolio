@@ -5,11 +5,6 @@ class Slider {
         this.img = document.getElementById("imgSlider");
         this.tab = new Array("assets/img/slider1.jpg", "assets/img/slider2.jpg", "assets/img/slider3.jpg");
         this.img.src = this.tab[0];
-        this.init();
-    }
-
-    // FONCTION POUR REGROUPER LES FONCTION DE MON SLIDER
-    init() {
         this.timerSlide();
     }
 
