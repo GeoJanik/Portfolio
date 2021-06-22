@@ -30,7 +30,7 @@ function deleteComment($commentId)
     $commentManager = new CommentManager();
     $commentManager->deleteValues($commentId);
     showAdminComment();
-    echo "<script>alert(\"Commentaire supprimé\")</script>";
+    echo "<script>confirm(\"Supprimer le commentaire ?\")</script>";
 }
 
 function deleteForm($id)
@@ -38,5 +38,5 @@ function deleteForm($id)
     $userForm = new UserForm();
     $userForm->deleteForm($id);
     showAdminContact();
-    echo "<script>alert(\"Formulaire supprimé\")</script>";
+    echo "<script>confirm(\"Supprimé le formulaire ?\")</script>";
 }

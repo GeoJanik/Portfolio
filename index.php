@@ -9,7 +9,7 @@ try {
     if (isset($_GET['action'])) {
         if ($_GET['action'] == 'projectList') {
             projectList();
-        } else if ($_GET['action'] == 'showProject') {
+        } else if ($_GET['action'] == 'showProject') { 
             showProject($_GET['idProject']);
         } else if ($_GET['action'] == 'skill') {
             showSkill();
