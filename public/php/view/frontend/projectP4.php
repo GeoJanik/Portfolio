@@ -68,6 +68,6 @@
     </p>
 
     <h3>Voir mon site</h3>
-    <a href="http://blogp4.geojanik.com/">Cliquer sur ici</a>
+    <a href="http://blogp4.geojanik.com/">Cliquer ici</a>
     <br><br>
 </div>
