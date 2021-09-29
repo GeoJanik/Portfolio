@@ -53,32 +53,6 @@
 
   </div>
 
-  <div id="skill">
-    <h2 class="titleSkill">Languages informatique</h2>
-    <div class="separateur">
-      <div class="trait"></div>
-    </div>
-    <img src="assets/img/html.png" alt="html">
-    <div class="progress">
-      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-    </div>
-    <img src="assets/img/css3.png" alt="css">
 
-    <div class="progress">
-      <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-    </div>
-    <img src="assets/img/js.png" alt="js">
-
-    <div class="progress">
-      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
-    </div>
-    <img src="assets/img/php.png" alt="php">
-
-    <div class="progress">
-      <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
-    </div>
-
-
-  </div>
 
 </div>
