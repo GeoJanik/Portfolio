@@ -99,6 +99,6 @@
     </ul>
     <br>
     <h3>Voir mon site</h3>
-    <a href="https://ireki.geojanik.com/">Cliquer ici</a>
+    <a href="https://ireki.geojanik.fr/">Cliquer ici</a>
     <br><br>
 </div>
